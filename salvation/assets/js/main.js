@@ -266,6 +266,8 @@
     if (!article) return;
     const headings = $$("h2", article);
     toc.innerHTML = "";
+    toc.lang = article.lang;
+    toc.dir = article.dir;
     headings.forEach((heading, i) => {
       heading.id ||= `${article.dataset.langBlock}-${i + 1}`;
       const li = document.createElement("li");

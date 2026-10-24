@@ -122,6 +122,11 @@
       "legal.privacy_lead": "Hangi verinin neden işlendiğini ve haklarını sade bir dille anlattık.",
       "legal.terms": "Kullanım Koşulları",
       "legal.terms_lead": "Salvation’ı kullanırken geçerli olan kurallar.",
+      "legal.credits": "Kaynaklar",
+      "legal.credits_lead": "Uygulamadaki Kur’an metni, mealler ve tilavetlerin kaynakları.",
+      "meta.title.credits": "Kaynaklar · Salvation",
+      "meta.desc.credits": "Salvation’daki Kur’an metni, mealler ve tilavetlerin kaynakları.",
+      "footer.credits": "Kaynaklar",
 
       "404.title": "Aradığın sayfa burada değil.",
       "404.back": "Ana sayfaya dön",
@@ -288,6 +293,11 @@
       "legal.privacy_lead": "What data is processed, why, and what your rights are, in plain language.",
       "legal.terms": "Terms of Use",
       "legal.terms_lead": "The rules that apply when you use Salvation.",
+      "legal.credits": "Sources",
+      "legal.credits_lead": "Where the Quran text, translations and recitations in the app come from.",
+      "meta.title.credits": "Sources · Salvation",
+      "meta.desc.credits": "The sources of the Quran text, translations and recitations in Salvation.",
+      "footer.credits": "Sources",
 
       "404.title": "The page you’re looking for isn’t here.",
       "404.back": "Back to the home page",
@@ -342,7 +352,14 @@
   const STORAGE_KEY = "salvation.lang";
   const root = document.documentElement;
 
+  // The legal pages come in every language the app has; the app opens them
+  // with ?lang=<its language>. The rest of the site is Turkish or English.
+  const LEGAL_LANGUAGES = ["tr", "en", "ar", "id", "ms", "fr", "de", "es", "ru", "hi", "bn", "ur"];
+  const asked = new URLSearchParams(location.search).get("lang");
+  let legalLang = LEGAL_LANGUAGES.includes(asked) ? asked : null;
+
   function detect() {
+    if (legalLang === "tr" || legalLang === "en") return legalLang;
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved === "tr" || saved === "en") return saved;
@@ -378,8 +395,26 @@
         if (attr && key && STRINGS[lang][key] != null) el.setAttribute(attr, STRINGS[lang][key]);
       }
     });
+    const shown = legalLang || lang;
+    let article = null;
     document.querySelectorAll("[data-lang-block]").forEach((el) => {
-      el.hidden = el.dataset.langBlock !== lang;
+      el.hidden = el.dataset.langBlock !== shown;
+      if (!el.hidden) article = el;
+    });
+    // A language the site itself lacks: the heading in that language too,
+    // without the Turkish or English line under it.
+    const own = shown !== lang && article;
+    document.querySelectorAll("[data-legal-title]").forEach((el) => {
+      if (own) el.textContent = article.dataset.title;
+      el.lang = own ? article.lang : "";
+      el.dir = own ? article.dir : "";
+    });
+    document.querySelectorAll("[data-legal-lead]").forEach((el) => {
+      el.hidden = Boolean(own);
+    });
+    document.querySelectorAll("[data-legal-lang]").forEach((link) => {
+      if (link.dataset.legalLang === shown) link.setAttribute("aria-current", "true");
+      else link.removeAttribute("aria-current");
     });
     document.querySelectorAll("[data-lang]").forEach((button) => {
       button.setAttribute("aria-pressed", String(button.dataset.lang === lang));
@@ -389,7 +424,12 @@
   }
 
   function set(next) {
-    if (next === lang || !STRINGS[next]) return;
+    if (!STRINGS[next] || (next === lang && !legalLang)) return;
+    // Choosing Turkish or English shows the legal text in it too.
+    if (legalLang) {
+      legalLang = null;
+      history.replaceState(null, "", location.pathname + location.hash);
+    }
     lang = next;
     root.lang = next;
     try {

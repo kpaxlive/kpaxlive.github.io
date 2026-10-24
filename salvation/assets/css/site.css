@@ -2190,12 +2190,12 @@ button { font: inherit; color: inherit; }
   color: #3a3328;
 }
 .paper p { margin: 0 0 14px; max-width: 46em; }
-.paper ul { margin: 0 0 14px; padding-left: 0; list-style: none; max-width: 46em; }
-.paper li { position: relative; padding-left: 26px; margin-bottom: 8px; }
+.paper ul { margin: 0 0 14px; padding-inline-start: 0; list-style: none; max-width: 46em; }
+.paper li { position: relative; padding-inline-start: 26px; margin-bottom: 8px; }
 .paper li::before {
   content: "";
   position: absolute;
-  left: 4px;
+  inset-inline-start: 4px;
   top: 0.72em;
   width: 7px;
   height: 7px;
@@ -2204,6 +2204,20 @@ button { font: inherit; color: inherit; }
 }
 .paper a { color: #6b4f1d; text-underline-offset: 3px; }
 .paper strong { color: #1f1b14; }
+/* Scripts whose letters join or hang from a line: no spacing between them. */
+.paper article:is(:lang(ar), :lang(ur), :lang(hi), :lang(bn)) .updated { letter-spacing: 0; }
+
+/* Every language the legal texts come in, above them. */
+.legal__langs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin: 0 0 32px;
+  font: 500 13px/1.6 var(--sans);
+}
+.legal__langs a { color: var(--ink-muted); text-decoration: none; }
+.legal__langs a:hover { color: #1f1b14; text-decoration: underline; }
+.legal__langs a[aria-current] { color: #1f1b14; font-weight: 700; }
 
 /* ---------------------------------------------------------------- 404 */
 
