@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title data-i18n="meta.title.privacy">Gizlilik Politikası · Salvation</title>
+  <meta name="description" content="Salvation’ın hangi verileri neden işlediği ve hakların." data-i18n-attr="content:meta.desc.privacy">
+  <meta name="theme-color" content="#071a12">
+  <link rel="icon" href="../assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="preload" href="../assets/fonts/CormorantGaramond-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <script src="../assets/js/i18n.js"></script>
+  <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M16.37 12.73c-.03-2.6 2.13-3.86 2.22-3.92-1.21-1.77-3.09-2.01-3.76-2.04-1.6-.16-3.12.94-3.94.94-.81 0-2.06-.92-3.39-.9-1.74.03-3.35 1.01-4.25 2.57-1.81 3.14-.46 7.8 1.3 10.35.86 1.25 1.89 2.65 3.24 2.6 1.3-.05 1.79-.84 3.36-.84 1.57 0 2.01.84 3.38.81 1.4-.02 2.29-1.27 3.14-2.53.99-1.45 1.4-2.85 1.42-2.93-.03-.01-2.72-1.04-2.75-4.14ZM13.78 5.1c.71-.87 1.2-2.07 1.06-3.27-1.03.04-2.28.69-3.02 1.55-.66.76-1.24 1.99-1.09 3.16 1.15.09 2.33-.58 3.05-1.44Z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 14 14"><path fill="none" stroke-linecap="round" d="M1 1l12 12M13 1 1 13"/></symbol>
+  </svg>
+
+  <a class="skip" href="#main" data-i18n="skip">İçeriğe geç</a>
+
+  <header class="nav" data-nav>
+    <div class="nav__inner wrap">
+      <a class="brand" href="../">
+        <img src="../assets/img/app-icon.webp" alt="" width="34" height="34">
+        <span>Salvation</span>
+      </a>
+      <nav class="nav__links" aria-label="Salvation">
+        <a href="../#verses" data-i18n="nav.verses">Günün Ayetleri</a>
+        <a href="../#prayer" data-i18n="nav.prayer">Dua Odası</a>
+        <a href="../#quran" data-i18n="nav.quran">Kur’an</a>
+        <button type="button" data-contact data-i18n="nav.contact">İletişim</button>
+      </nav>
+      <div class="nav__end">
+        <div class="lang" role="group" aria-label="Dil · Language">
+          <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="store store--sm" href="https://apps.apple.com/app/id6818659276"><svg aria-hidden="true"><use href="#i-apple"/></svg><span data-i18n="nav.download">İndir</span></a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" data-i18n-attr="aria-label:nav.menu" aria-label="Menü"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" data-menu>
+    <ol>
+      <li><a href="../" data-i18n="nav.home">Ana sayfa</a></li>
+      <li><a href="../privacy/" data-i18n="nav.privacy">Gizlilik</a></li>
+      <li><a href="../terms/" data-i18n="nav.terms">Koşullar</a></li>
+      <li><button type="button" data-contact data-i18n="nav.contact">İletişim</button></li>
+    </ol>
+    <div class="menu__foot">
+      <div class="lang" role="group" aria-label="Dil · Language">
+        <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="store store--sm" href="https://apps.apple.com/app/id6818659276"><svg aria-hidden="true"><use href="#i-apple"/></svg><span data-i18n="nav.download">İndir</span></a>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="legal-hero">
+      <div class="wrap">
+        <p class="eyebrow" lang="en" data-reveal>Salvation</p>
+        <h1 class="display" data-split data-i18n="legal.privacy">Gizlilik Politikası</h1>
+        <p class="lead legal-hero__meta" data-reveal style="--d: 300ms" data-i18n="legal.privacy_lead">Hangi verinin neden işlendiğini ve haklarını sade bir dille anlattık.</p>
+      </div>
+      <span class="legal-hero__arch" aria-hidden="true"></span>
+    </section>
+
+    <section class="legal">
+      <div class="wrap legal__grid">
+        <aside class="legal__toc">
+          <h2 data-i18n="legal.toc">Bu sayfada</h2>
+          <ol data-toc></ol>
+        </aside>
+        <div class="paper" data-reveal>
+          <article data-lang-block="tr" lang="tr">
+          <!-- legal:privacy_tr -->
+          <p class="updated">Son güncelleme: 20 Ekim 2026</p>
+          <p>Salvation ("uygulama"), Kur'an okumak, dinlemek ve dua etmek için hazırlanmış bir mobil uygulamadır. Bu metin, uygulamayı kullanırken hangi verilerin işlendiğini, neden işlendiğini ve haklarınızı açıklar. Uygulamada hesap açmanız gerekmez; adınızı, e-posta adresinizi ya da telefon numaranızı istemeyiz.</p>
+          <h2>Cihazınızda kalan veriler</h2>
+          <p>Aşağıdakiler yalnızca cihazınızda saklanır, bize gönderilmez:</p>
+          <ul><li>Beğendiğiniz ayetler</li><li>Kur'an'da kaldığınız yer ve günün ayetlerindeki ilerlemeniz</li><li>Dil ve okuyuş tercihiniz</li><li>İndirdiğiniz sure sesleri</li></ul>
+          <p>Uygulamayı sildiğinizde bu veriler de silinir.</p>
+          <h2>Dua Odası</h2>
+          <p>Dua Odası'na yazdığınız dualar şu an yalnızca cihazınızda, uygulama açık kaldığı sürece tutulur; hiçbir sunucuya gönderilmez. Bu değişirse bu metni güncelleriz.</p>
+          <p>Odadaki bir duaya "Âmin" dediğinizde, herkesin aynı canlı sayıyı görebilmesi için o duanın ortak âmin sayısına Google'ın Firebase Cloud Firestore hizmetinde anonim olarak bir eklenir. Bununla birlikte başka hiçbir şey gönderilmez: kimlik, isim ya da metin yoktur. Her istekte olduğu gibi IP adresiniz Google tarafından işlenir.</p>
+          <h2>Kullanım istatistikleri (Firebase Analytics)</h2>
+          <p>Uygulamayı geliştirebilmek için Google'ın Firebase Analytics hizmetiyle kullanım istatistikleri toplarız: hangi ekranların açıldığı, ayetlerin beğenilmesi, dinlenmesi ya da paylaşılması, okunan ve indirilen sureler, seçilen dil ve okuyuş, abone olup olmadığınız ve hangi ekrandan abone olduğunuz gibi. Bunlarla birlikte cihaz modeli, işletim sistemi ve uygulama sürümü, uygulamaya özel rastgele bir kimlik ve IP adresinden çıkarılan yaklaşık konum (ülke, şehir) işlenir.</p>
+          <p>Bu veriler adınızla ya da iletişim bilgilerinizle ilişkilendirilmez, reklam için kullanılmaz ve satılmaz. Uygulama sizi başka şirketlerin uygulama ve sitelerinde takip etmez.</p>
+          <h2>Satın almalar ve abonelik (RevenueCat)</h2>
+          <p>Salvation Premium, Apple'ın App Store'u üzerinden satın alınır. Ödemeyi Apple alır; kart ya da ödeme bilgilerinizi hiçbir zaman görmeyiz. Aboneliğinizin etkin olup olmadığını denetlemek, ücretsiz deneme sunmak ve satın almaları geri yüklemek için uygulama RevenueCat hizmetini kullanır. RevenueCat; kendi oluşturduğu rastgele bir kimliği, App Store satın alma geçmişinizi, cihaz modelinizi, işletim sisteminizi, uygulama sürümünü, ülkenizi ve IP adresinizi işler.</p>
+          <p>Abonelik olaylarının (denemenin başlaması ya da bitmesi, yenileme, iptal) kullanım istatistiklerimizde görünmesi için bu kimlik, uygulamanın rastgele Firebase kimliğiyle eşleştirilir. Bunların hiçbiri adınızla ya da iletişim bilgilerinizle ilişkilendirilmez.</p>
+          <h2>Çökme raporları (Firebase Crashlytics)</h2>
+          <p>Uygulama çöktüğünde ya da bir hata oluştuğunda Firebase Crashlytics'e teknik bir rapor gönderilir: hatanın kodun neresinde oluştuğu, cihaz modeli, işletim sistemi, uygulama sürümü, hatadan önceki teknik kayıtlar ve rastgele bir kurulum kimliği. Raporlar yalnızca hataları bulup düzeltmek için kullanılır.</p>
+          <h2>İnternetten yüklenen içerik</h2>
+          <p>Tilavet sesleri Cloudflare altyapısından yüklenir. Her istekte IP adresiniz ve istek bilgileri Cloudflare tarafından işlenir.</p>
+          <h2>Yurt dışına aktarım</h2>
+          <p>Google (Firebase), RevenueCat ve Cloudflare'in sunucuları Türkiye dışında, ağırlıklı olarak Amerika Birleşik Devletleri'nde bulunur. Yukarıda sayılan veriler bu hizmetler aracılığıyla yurt dışına aktarılır.</p>
+          <h2>Bize yazdığınızda</h2>
+          <p>"Bize Ulaşın" ya da "Hata Bildir" ile e-posta gönderdiğinizde e-posta adresiniz ve mesajınız size yanıt vermek için kullanılır. Hata bildirimlerine uygulama sürümü, cihaz modeli, işletim sistemi ve uygulama dili otomatik eklenir; göndermeden önce görebilir ve silebilirsiniz.</p>
+          <h2>Saklama süresi</h2>
+          <p>Cihazınızdaki veriler siz silene kadar kalır. Kullanım istatistikleri, çökme raporları ve satın alma kayıtları, ilgili hizmetlerin saklama sürelerince tutulur ve sonra silinir. E-postalar, talebiniz sonuçlandıktan sonra makul bir süre saklanır.</p>
+          <h2>Çocuklar</h2>
+          <p>Uygulama genel kitleye yöneliktir. 13 yaşından küçük çocuklardan bilerek kişisel veri toplamayız.</p>
+          <h2>Haklarınız</h2>
+          <p>6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 11. maddesi uyarınca verilerinizin işlenip işlenmediğini öğrenme, bilgi isteme, düzeltilmesini ya da silinmesini isteme ve işlemeye itiraz etme haklarına sahipsiniz. Taleplerinizi aşağıdaki adrese yazabilirsiniz. Kullanım istatistikleri cihazdaki rastgele kimlikle tutulduğundan uygulamayı silip yeniden yüklemek bu kimliği de sıfırlar.</p>
+          <h2>Değişiklikler</h2>
+          <p>Bu politikayı güncelleyebiliriz. Güncel hali her zaman uygulamada, Ayarlar &gt; Gizlilik Politikası'ndadır; üstteki tarih son değişikliği gösterir.</p>
+          <h2>İletişim</h2>
+          <p><a href="mailto:fayan.developer@gmail.com">fayan.developer@gmail.com</a></p>
+          <!-- /legal -->
+          </article>
+          <article data-lang-block="en" lang="en" hidden>
+          <!-- legal:privacy_en -->
+          <p class="updated">Last updated: October 20, 2026</p>
+          <p>Salvation ("the app") is a mobile app for reading and listening to the Quran and for prayer. This policy explains which data is processed while you use the app, why, and what your rights are. You don't need an account; we never ask for your name, email address or phone number.</p>
+          <h2>Data that stays on your device</h2>
+          <p>The following is stored only on your device and never sent to us:</p>
+          <ul><li>The verses you like</li><li>Where you left off in the Quran and your progress in the daily verses</li><li>Your language and recitation preferences</li><li>The surah recitations you download</li></ul>
+          <p>Deleting the app deletes this data too.</p>
+          <h2>Prayer Room</h2>
+          <p>Prayers you write in the Prayer Room are currently kept only on your device, while the app stays open; they are not sent to any server. If this changes, we will update this policy.</p>
+          <p>When you say Ameen to a prayer in the room, an anonymous +1 is added to that prayer's shared ameen count, kept in Google's Firebase Cloud Firestore, so that everyone sees the same live count. Nothing else is sent with it: no identifier, no name and no text. As with any request, your IP address is processed by Google.</p>
+          <h2>Usage statistics (Firebase Analytics)</h2>
+          <p>To improve the app we collect usage statistics with Google's Firebase Analytics: which screens are opened, verses liked, listened to or shared, surahs read and downloaded, the chosen language and recitation, whether you are subscribed and from which screen, and similar. Along with these, your device model, operating system and app version, a random app-specific identifier and an approximate location derived from your IP address (country, city) are processed.</p>
+          <p>This data is not linked to your name or contact details, is not used for advertising and is never sold. The app does not track you across other companies' apps and websites.</p>
+          <h2>Purchases and subscriptions (RevenueCat)</h2>
+          <p>Salvation Premium is bought through Apple's App Store. Apple handles the payment; we never see your card or payment details. To check whether your subscription is active, offer free trials and restore purchases, the app uses RevenueCat. RevenueCat processes a random identifier it creates, your App Store purchase history, your device model, operating system, app version, country and IP address.</p>
+          <p>This identifier is linked to the app's random Firebase identifier, so that subscription events (a trial starting or ending, a renewal, a cancellation) appear in our usage statistics. None of this is linked to your name or contact details.</p>
+          <h2>Crash reports (Firebase Crashlytics)</h2>
+          <p>When the app crashes or runs into an error, a technical report is sent to Firebase Crashlytics: where in the code the error happened, your device model, operating system, app version, technical logs from just before the error and a random installation identifier. Reports are used only to find and fix bugs.</p>
+          <h2>Content loaded from the internet</h2>
+          <p>Recitations are loaded from Cloudflare's infrastructure. With every request, Cloudflare processes your IP address and the request details.</p>
+          <h2>International transfers</h2>
+          <p>The servers of Google (Firebase), RevenueCat and Cloudflare are located outside Türkiye, mostly in the United States. The data described above is transferred abroad through these services.</p>
+          <h2>When you write to us</h2>
+          <p>When you send an email through "Contact Us" or "Report a Bug", your email address and message are used to answer you. Bug reports automatically include the app version, device model, operating system and app language; you can see and remove them before sending.</p>
+          <h2>Retention</h2>
+          <p>Data on your device stays until you delete it. Usage statistics, crash reports and purchase records are kept for the retention periods of those services and then deleted. Emails are kept for a reasonable time after your request is resolved.</p>
+          <h2>Children</h2>
+          <p>The app is meant for a general audience. We do not knowingly collect personal data from children under 13.</p>
+          <h2>Your rights</h2>
+          <p>Under the Turkish Personal Data Protection Law (KVKK, No. 6698, Article 11) and similar laws where you live, you may ask whether your data is processed, request information, ask for it to be corrected or deleted, and object to its processing. Write to the address below. Because usage statistics are tied to a random identifier on your device, deleting and reinstalling the app resets that identifier.</p>
+          <h2>Changes</h2>
+          <p>We may update this policy. The current version is always in the app under Settings &gt; Privacy Policy; the date at the top shows the latest change.</p>
+          <h2>Contact</h2>
+          <p><a href="mailto:fayan.developer@gmail.com">fayan.developer@gmail.com</a></p>
+          <!-- /legal -->
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img class="footer__skyline" src="../assets/img/golden-skyline.webp" alt="" loading="lazy" aria-hidden="true">
+    <div class="wrap">
+      <div class="footer__grid">
+        <div>
+          <a class="brand" href="../"><img src="../assets/img/app-icon.webp" alt="" width="34" height="34"><span>Salvation</span></a>
+          <p class="footer__tag" data-i18n="footer.tag">Günün ayetleri, Dua Odası ve Kur’an; tek, sakin bir uygulamada.</p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.app">Uygulama</h4>
+          <ul>
+            <li><a href="../#verses" data-i18n="nav.verses">Günün Ayetleri</a></li>
+            <li><a href="../#prayer" data-i18n="nav.prayer">Dua Odası</a></li>
+            <li><a href="../#quran" data-i18n="nav.quran">Kur’an</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.legal">Yasal</h4>
+          <ul>
+            <li><a href="../privacy/" aria-current="page" data-i18n="footer.privacy">Gizlilik Politikası</a></li>
+            <li><a href="../terms/" data-i18n="footer.terms">Kullanım Koşulları</a></li>
+            <li><button type="button" data-contact data-i18n="footer.contact">İletişim</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__sources">
+        <p data-i18n="footer.sources">Arapça metin: <a href="https://tanzil.net" rel="noopener">Tanzil Projesi</a> (CC BY 3.0, değiştirilmeden). Türkçe, Endonezce, Malayca, Fransızca, Almanca, İspanyolca, Rusça, Hintçe, Bengalce ve Urduca mealler ile Arapça tefsir: <a href="https://quranenc.com" rel="noopener">QuranEnc</a> (değiştirilmeden). İngilizce meal: Talal Itani, <a href="https://www.clearquran.com" rel="noopener">ClearQuran</a>. Tilavetler: <a href="https://alquran.cloud" rel="noopener">Islamic Network</a>. Kelime zamanlamaları: <a href="https://github.com/cpfair/quran-align" rel="noopener">quran-align</a>.</p>
+        <p data-i18n="footer.copy">© 2026 Salvation</p>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="contact" data-contact-dialog aria-labelledby="contact-title">
+    <div class="contact__card">
+      <button class="contact__close" type="button" data-contact-close data-i18n-attr="aria-label:contact.close" aria-label="Kapat"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+      <img class="ornament" src="../assets/img/divider-ornate.webp" alt="" width="120" height="23">
+      <h2 id="contact-title" data-i18n="contact.title">Bize yaz</h2>
+      <p data-i18n="contact.body">Soru, öneri ya da bir hata bildirimi için bize e-posta gönderebilirsin.</p>
+      <div class="contact__email">
+        <span data-contact-email>fayan.developer@gmail.com</span>
+        <button class="contact__copy" type="button" data-contact-copy data-i18n="contact.copy">Kopyala</button>
+      </div>
+      <a class="btn btn--gold" href="mailto:fayan.developer@gmail.com?subject=Salvation" data-i18n="contact.send">E-posta gönder</a>
+    </div>
+  </dialog>
+</body>
+</html>
