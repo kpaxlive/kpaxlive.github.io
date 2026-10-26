@@ -8,13 +8,13 @@
 
   const STRINGS = {
     tr: {
-      "meta.title.home": "Salvation · Günün ayetleri, Dua Odası ve Kur’an",
-      "meta.desc.home": "Günün ayetlerini kaydırarak oku, Dua Odası’nda birlikte âmin de, 114 sureyi kelime kelime takip ederek dinle. iPhone için Salvation.",
-      "meta.title.privacy": "Gizlilik Politikası · Salvation",
-      "meta.desc.privacy": "Salvation’ın hangi verileri neden işlediği ve hakların.",
-      "meta.title.terms": "Kullanım Koşulları · Salvation",
-      "meta.desc.terms": "Salvation’ı kullanırken geçerli olan koşullar.",
-      "meta.title.404": "Sayfa bulunamadı · Salvation",
+      "meta.title.home": "Scroll Quran · Günün ayetleri, Dua Odası ve Kur’an",
+      "meta.desc.home": "Günün ayetlerini kaydırarak oku, Dua Odası’nda birlikte âmin de, 114 sureyi kelime kelime takip ederek dinle. iPhone için Scroll Quran.",
+      "meta.title.privacy": "Gizlilik Politikası · Scroll Quran",
+      "meta.desc.privacy": "Scroll Quran’ın hangi verileri neden işlediği ve hakların.",
+      "meta.title.terms": "Kullanım Koşulları · Scroll Quran",
+      "meta.desc.terms": "Scroll Quran’ı kullanırken geçerli olan koşullar.",
+      "meta.title.404": "Sayfa bulunamadı · Scroll Quran",
 
       skip: "İçeriğe geç",
       "nav.verses": "Günün Ayetleri",
@@ -32,14 +32,14 @@
 
       "hero.eyebrow": "<span lang=\"en\">iPhone</span> için Kur’an uygulaması",
       "hero.title": "Her güne Kur’an’dan bir ışık.",
-      "hero.lead": "Salvation; günün ayetlerini kaydırarak okuduğun, Dua Odası’nda başkalarının dualarına âmin dediğin ve 114 sureyi kelime kelime takip ederek dinlediğin sade bir Kur’an uygulaması.",
+      "hero.lead": "Scroll Quran; günün ayetlerini kaydırarak okuduğun, Dua Odası’nda başkalarının dualarına âmin dediğin ve 114 sureyi kelime kelime takip ederek dinlediğin sade bir Kur’an uygulaması.",
       "hero.how": "Nasıl çalışır",
       "hero.scroll": "Kaydır",
       "hero.f1": "<strong>114</strong>sure",
       "hero.f2": "<strong>6.236</strong>ayet",
       "hero.f3": "<strong>4</strong>okuyuş",
 
-      "manifesto.text": "Telefonu her elimize aldığımızda bir şey bizi bekliyor: bildirimler, haberler, bitmeyen akışlar. Salvation o anın küçük bir kısmını geri istiyor. <span class=\"accent\">Birkaç ayet. Bir dua. Bir sure.</span> O kadar.",
+      "manifesto.text": "Telefonu her elimize aldığımızda bir şey bizi bekliyor: bildirimler, haberler, bitmeyen akışlar. Scroll Quran o anın küçük bir kısmını geri istiyor. <span class=\"accent\">Birkaç ayet. Bir dua. Bir sure.</span> O kadar.",
       "manifesto.meal": "“Bilesiniz ki, kalpler ancak Allah’ı anmakla huzur bulur.” <span>Ra’d Suresi · 28. Ayet</span>",
 
       "ch1.eyebrow": "01 — Günün Ayetleri",
@@ -88,7 +88,7 @@
 
       "promise.eyebrow": "Gizlilik",
       "promise.title": "Hesap yok. Sadece sen ve Kur’an.",
-      "promise.body": "Salvation’ı kullanmak için hesap açmana gerek yok. Adını, e-postanı ya da telefon numaranı hiç sormuyoruz.",
+      "promise.body": "Scroll Quran’ı kullanmak için hesap açmana gerek yok. Adını, e-postanı ya da telefon numaranı hiç sormuyoruz.",
       "promise.k1": "Cihazında kalır",
       "promise.v1": "Beğendiğin ayetler, kaldığın yer, dil ve okuyuş tercihlerin, indirdiğin sureler.",
       "promise.k2": "Asla",
@@ -98,7 +98,7 @@
       "promise.link": "Gizlilik politikasını oku",
 
       "cta.title": "Bugünün ayetleri seni bekliyor.",
-      "cta.lead": "Salvation’ı iPhone’una indir; ilk ayet bir kaydırma uzağında.",
+      "cta.lead": "Scroll Quran’ı iPhone’una indir; ilk ayet bir kaydırma uzağında.",
       "cta.note": "iOS 15 ve üzeri · Türkçe, English",
 
       "footer.tag": "Günün ayetleri, Dua Odası ve Kur’an; tek, sakin bir uygulamada.",
@@ -108,7 +108,7 @@
       "footer.terms": "Kullanım Koşulları",
       "footer.contact": "İletişim",
       "footer.sources": "Arapça metin: <a href=\"https://tanzil.net\" rel=\"noopener\">Tanzil Projesi</a> (CC BY 3.0, değiştirilmeden). Türkçe, Endonezce, Malayca, Fransızca, Almanca, İspanyolca, Rusça, Hintçe, Bengalce ve Urduca mealler ile Arapça tefsir: <a href=\"https://quranenc.com\" rel=\"noopener\">QuranEnc</a> (değiştirilmeden). İngilizce meal: Talal Itani, <a href=\"https://www.clearquran.com\" rel=\"noopener\">ClearQuran</a>. Tilavetler: <a href=\"https://alquran.cloud\" rel=\"noopener\">Islamic Network</a>. Kelime zamanlamaları: <a href=\"https://github.com/cpfair/quran-align\" rel=\"noopener\">quran-align</a>.",
-      "footer.copy": "© 2026 Salvation",
+      "footer.copy": "© 2026 Scroll Quran",
 
       "contact.title": "Bize yaz",
       "contact.body": "Soru, öneri ya da bir hata bildirimi için bize e-posta gönderebilirsin.",
@@ -121,11 +121,11 @@
       "legal.privacy": "Gizlilik Politikası",
       "legal.privacy_lead": "Hangi verinin neden işlendiğini ve haklarını sade bir dille anlattık.",
       "legal.terms": "Kullanım Koşulları",
-      "legal.terms_lead": "Salvation’ı kullanırken geçerli olan kurallar.",
+      "legal.terms_lead": "Scroll Quran’ı kullanırken geçerli olan kurallar.",
       "legal.credits": "Kaynaklar",
       "legal.credits_lead": "Uygulamadaki Kur’an metni, mealler ve tilavetlerin kaynakları.",
-      "meta.title.credits": "Kaynaklar · Salvation",
-      "meta.desc.credits": "Salvation’daki Kur’an metni, mealler ve tilavetlerin kaynakları.",
+      "meta.title.credits": "Kaynaklar · Scroll Quran",
+      "meta.desc.credits": "Scroll Quran’daki Kur’an metni, mealler ve tilavetlerin kaynakları.",
       "footer.credits": "Kaynaklar",
 
       "404.title": "Aradığın sayfa burada değil.",
@@ -178,13 +178,13 @@
     },
 
     en: {
-      "meta.title.home": "Salvation · Daily verses, the Prayer Room and the Quran",
-      "meta.desc.home": "Scroll through the day's verses, say ameen together in the Prayer Room, and listen to all 114 surahs word by word. Salvation for iPhone.",
-      "meta.title.privacy": "Privacy Policy · Salvation",
-      "meta.desc.privacy": "Which data Salvation processes, why, and your rights.",
-      "meta.title.terms": "Terms of Use · Salvation",
-      "meta.desc.terms": "The terms that apply when you use Salvation.",
-      "meta.title.404": "Page not found · Salvation",
+      "meta.title.home": "Scroll Quran · Daily verses, the Prayer Room and the Quran",
+      "meta.desc.home": "Scroll through the day's verses, say ameen together in the Prayer Room, and listen to all 114 surahs word by word. Scroll Quran for iPhone.",
+      "meta.title.privacy": "Privacy Policy · Scroll Quran",
+      "meta.desc.privacy": "Which data Scroll Quran processes, why, and your rights.",
+      "meta.title.terms": "Terms of Use · Scroll Quran",
+      "meta.desc.terms": "The terms that apply when you use Scroll Quran.",
+      "meta.title.404": "Page not found · Scroll Quran",
 
       skip: "Skip to content",
       "nav.verses": "Daily Verses",
@@ -202,14 +202,14 @@
 
       "hero.eyebrow": "A Quran app for iPhone",
       "hero.title": "A light from the Quran for every day.",
-      "hero.lead": "Salvation is a simple Quran app: scroll through the day’s verses, say ameen to other people’s prayers in the Prayer Room, and listen to all 114 surahs while following along word by word.",
+      "hero.lead": "Scroll Quran is a simple Quran app: scroll through the day’s verses, say ameen to other people’s prayers in the Prayer Room, and listen to all 114 surahs while following along word by word.",
       "hero.how": "How it works",
       "hero.scroll": "Scroll",
       "hero.f1": "<strong>114</strong>surahs",
       "hero.f2": "<strong>6,236</strong>verses",
       "hero.f3": "<strong>4</strong>recitations",
 
-      "manifesto.text": "Every time we pick up our phones, something is waiting: notifications, headlines, feeds that never end. Salvation asks for a small part of that moment back. <span class=\"accent\">A few verses. A prayer. A surah.</span> That’s all.",
+      "manifesto.text": "Every time we pick up our phones, something is waiting: notifications, headlines, feeds that never end. Scroll Quran asks for a small part of that moment back. <span class=\"accent\">A few verses. A prayer. A surah.</span> That’s all.",
       "manifesto.meal": "“Surely, it is in the remembrance of Allah that hearts find comfort.” <span>Surah Ra’d · Verse 28</span>",
 
       "ch1.eyebrow": "01 — Verses of the Day",
@@ -258,7 +258,7 @@
 
       "promise.eyebrow": "Privacy",
       "promise.title": "No account. Just you and the Quran.",
-      "promise.body": "You don’t need an account to use Salvation. We never ask for your name, email address or phone number.",
+      "promise.body": "You don’t need an account to use Scroll Quran. We never ask for your name, email address or phone number.",
       "promise.k1": "Stays on your device",
       "promise.v1": "The verses you like, where you left off, your language and recitation choices, your downloads.",
       "promise.k2": "Never",
@@ -268,7 +268,7 @@
       "promise.link": "Read the privacy policy",
 
       "cta.title": "Today’s verses are waiting for you.",
-      "cta.lead": "Download Salvation for your iPhone. The first verse is one swipe away.",
+      "cta.lead": "Download Scroll Quran for your iPhone. The first verse is one swipe away.",
       "cta.note": "iOS 15 or later · English, Türkçe",
 
       "footer.tag": "The day’s verses, the Prayer Room and the Quran, in one quiet app.",
@@ -278,7 +278,7 @@
       "footer.terms": "Terms of Use",
       "footer.contact": "Contact",
       "footer.sources": "Arabic text: <a href=\"https://tanzil.net\" rel=\"noopener\">Tanzil Project</a> (CC BY 3.0, unmodified). Turkish, Indonesian, Malay, French, German, Spanish, Russian, Hindi, Bengali and Urdu translations and the Arabic tafsir: <a href=\"https://quranenc.com\" rel=\"noopener\">QuranEnc</a> (unmodified). English translation: Talal Itani, <a href=\"https://www.clearquran.com\" rel=\"noopener\">ClearQuran</a>. Recitations: <a href=\"https://alquran.cloud\" rel=\"noopener\">Islamic Network</a>. Word timings: <a href=\"https://github.com/cpfair/quran-align\" rel=\"noopener\">quran-align</a>.",
-      "footer.copy": "© 2026 Salvation",
+      "footer.copy": "© 2026 Scroll Quran",
 
       "contact.title": "Write to us",
       "contact.body": "For questions, suggestions or to report a bug, send us an email.",
@@ -291,11 +291,11 @@
       "legal.privacy": "Privacy Policy",
       "legal.privacy_lead": "What data is processed, why, and what your rights are, in plain language.",
       "legal.terms": "Terms of Use",
-      "legal.terms_lead": "The rules that apply when you use Salvation.",
+      "legal.terms_lead": "The rules that apply when you use Scroll Quran.",
       "legal.credits": "Sources",
       "legal.credits_lead": "Where the Quran text, translations and recitations in the app come from.",
-      "meta.title.credits": "Sources · Salvation",
-      "meta.desc.credits": "The sources of the Quran text, translations and recitations in Salvation.",
+      "meta.title.credits": "Sources · Scroll Quran",
+      "meta.desc.credits": "The sources of the Quran text, translations and recitations in Scroll Quran.",
       "footer.credits": "Sources",
 
       "404.title": "The page you’re looking for isn’t here.",
