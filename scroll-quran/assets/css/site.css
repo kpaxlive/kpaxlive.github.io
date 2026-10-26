@@ -2096,6 +2096,14 @@ button { font: inherit; color: inherit; }
 }
 .legal-hero .display { font-size: clamp(48px, 7vw, 92px); }
 .legal-hero__meta { margin-top: 22px; color: var(--muted); font-size: 14px; }
+/* On a phone the policy itself starts on the first screen, under a short
+   heading (the text is there at once, not revealed on scrolling). */
+@media (max-width: 760px) {
+  /* The paper rises 40px over its foot. */
+  .legal-hero { padding: calc(var(--nav-h) + 32px) 0 64px; }
+  .legal-hero .display { font-size: 42px; }
+  .legal-hero__meta { margin-top: 12px; }
+}
 .legal-hero__arch {
   position: absolute;
   right: max(var(--gutter), calc((100vw - var(--max)) / 2));
