@@ -347,7 +347,7 @@
     },
   };
 
-  const STORAGE_KEY = "salvation.lang";
+  const STORAGE_KEY = "scroll-quran.lang";
   const root = document.documentElement;
 
   // The legal pages come in every language the app has; the app opens them

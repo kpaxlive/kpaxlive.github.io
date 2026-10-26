@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title data-i18n="meta.title.terms">Kullanım Koşulları · Scroll Quran</title>
+  <meta name="description" content="Scroll Quran’ı kullanırken geçerli olan koşullar." data-i18n-attr="content:meta.desc.terms">
+  <meta name="theme-color" content="#071a12">
+  <link rel="icon" href="../assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="preload" href="../assets/fonts/CormorantGaramond-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <script src="../assets/js/i18n.js"></script>
+  <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M16.37 12.73c-.03-2.6 2.13-3.86 2.22-3.92-1.21-1.77-3.09-2.01-3.76-2.04-1.6-.16-3.12.94-3.94.94-.81 0-2.06-.92-3.39-.9-1.74.03-3.35 1.01-4.25 2.57-1.81 3.14-.46 7.8 1.3 10.35.86 1.25 1.89 2.65 3.24 2.6 1.3-.05 1.79-.84 3.36-.84 1.57 0 2.01.84 3.38.81 1.4-.02 2.29-1.27 3.14-2.53.99-1.45 1.4-2.85 1.42-2.93-.03-.01-2.72-1.04-2.75-4.14ZM13.78 5.1c.71-.87 1.2-2.07 1.06-3.27-1.03.04-2.28.69-3.02 1.55-.66.76-1.24 1.99-1.09 3.16 1.15.09 2.33-.58 3.05-1.44Z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 14 14"><path fill="none" stroke-linecap="round" d="M1 1l12 12M13 1 1 13"/></symbol>
+  </svg>
+
+  <a class="skip" href="#main" data-i18n="skip">İçeriğe geç</a>
+
+  <header class="nav" data-nav>
+    <div class="nav__inner wrap">
+      <a class="brand" href="../">
+        <img src="../assets/img/app-icon.webp" alt="" width="34" height="34">
+        <span>Scroll Quran</span>
+      </a>
+      <nav class="nav__links" aria-label="Scroll Quran">
+        <a href="../#verses" data-i18n="nav.verses">Günün Ayetleri</a>
+        <a href="../#prayer" data-i18n="nav.prayer">Dua Odası</a>
+        <a href="../#quran" data-i18n="nav.quran">Kur’an</a>
+        <button type="button" data-contact data-i18n="nav.contact">İletişim</button>
+      </nav>
+      <div class="nav__end">
+        <div class="lang" role="group" aria-label="Dil · Language">
+          <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="store store--sm" href="https://apps.apple.com/app/id6818659276"><svg aria-hidden="true"><use href="#i-apple"/></svg><span data-i18n="nav.download">İndir</span></a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" data-i18n-attr="aria-label:nav.menu" aria-label="Menü"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" data-menu>
+    <ol>
+      <li><a href="../" data-i18n="nav.home">Ana sayfa</a></li>
+      <li><a href="../privacy/" data-i18n="nav.privacy">Gizlilik</a></li>
+      <li><a href="../terms/" data-i18n="nav.terms">Koşullar</a></li>
+      <li><button type="button" data-contact data-i18n="nav.contact">İletişim</button></li>
+    </ol>
+    <div class="menu__foot">
+      <div class="lang" role="group" aria-label="Dil · Language">
+        <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="store store--sm" href="https://apps.apple.com/app/id6818659276"><svg aria-hidden="true"><use href="#i-apple"/></svg><span data-i18n="nav.download">İndir</span></a>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="legal-hero">
+      <div class="wrap">
+        <p class="eyebrow" lang="en" data-reveal>Scroll Quran</p>
+        <h1 class="display" data-split data-legal-title data-i18n="legal.terms">Kullanım Koşulları</h1>
+        <p class="lead legal-hero__meta" data-reveal style="--d: 300ms" data-legal-lead data-i18n="legal.terms_lead">Scroll Quran’ı kullanırken geçerli olan kurallar.</p>
+      </div>
+      <span class="legal-hero__arch" aria-hidden="true"></span>
+    </section>
+
+    <section class="legal">
+      <div class="wrap legal__grid">
+        <aside class="legal__toc">
+          <h2 data-i18n="legal.toc">Bu sayfada</h2>
+          <ol data-toc></ol>
+        </aside>
+        <div class="paper" data-reveal>
+          <!-- legal -->
+          <nav class="legal__langs" aria-label="Languages"><a href="?lang=tr" hreflang="tr" lang="tr" data-legal-lang="tr">Türkçe</a><a href="?lang=en" hreflang="en" lang="en" data-legal-lang="en">English</a><a href="?lang=ar" hreflang="ar" lang="ar" data-legal-lang="ar">العربية</a><a href="?lang=id" hreflang="id" lang="id" data-legal-lang="id">Bahasa Indonesia</a><a href="?lang=ms" hreflang="ms" lang="ms" data-legal-lang="ms">Bahasa Melayu</a><a href="?lang=fr" hreflang="fr" lang="fr" data-legal-lang="fr">Français</a><a href="?lang=de" hreflang="de" lang="de" data-legal-lang="de">Deutsch</a><a href="?lang=es" hreflang="es" lang="es" data-legal-lang="es">Español</a><a href="?lang=ru" hreflang="ru" lang="ru" data-legal-lang="ru">Русский</a><a href="?lang=hi" hreflang="hi" lang="hi" data-legal-lang="hi">हिन्दी</a><a href="?lang=bn" hreflang="bn" lang="bn" data-legal-lang="bn">বাংলা</a><a href="?lang=ur" hreflang="ur" lang="ur" data-legal-lang="ur">اردو</a></nav>
+          <article data-lang-block="tr" lang="tr" dir="ltr" data-title="Kullanım Koşulları">
+            <p class="updated">Son güncelleme: 25 Ekim 2026</p>
+            <p>Uygulamayı indirerek ya da kullanarak bu koşulları ve Apple'ın standart Lisanslı Uygulama Son Kullanıcı Lisans Sözleşmesi'ni (EULA) kabul etmiş olursunuz. Kabul etmiyorsanız lütfen uygulamayı kullanmayın. Metinde "biz", uygulamanın geliştiricisini ifade eder (App Store'da uygulamanın satıcısı olarak görünen kişi).</p>
+            <h2>Uygulama</h2>
+            <p>Uygulama; Kur'an metni, mealler, tilavetler, günün ayetleri ve dualar gibi dini içerikleri kişisel ve ticari olmayan kullanımınız için sunar. Bazı özellikler abonelik gerektirir. Uygulamanın özelliklerini ve içeriğini dilediğimiz zaman değiştirebilir, askıya alabilir ya da sonlandırabiliriz.</p>
+            <h2>Abonelik</h2>
+            <ul><li>Aboneliğin süresi ve fiyatı, satın almadan önce uygulamada gösterilir.</li><li>Ödeme, satın almayı onayladığınızda Apple kimliğinizden alınır.</li><li>Abonelik, mevcut dönem bitmeden en az 24 saat önce otomatik yenileme kapatılmadıkça kendiliğinden yenilenir. Yenileme ücreti, dönem bitmeden önceki 24 saat içinde alınır.</li><li>Ücretsiz deneme sunuluyorsa ve deneme bitmeden en az 24 saat önce iptal etmezseniz, deneme bitince ücretlendirilirsiniz. Denemenin kullanılmayan kısmı, abonelik satın aldığınızda sona erer.</li><li>Aboneliğinizi Apple kimliğinizin abonelik ayarlarından yönetebilir ya da iptal edebilirsiniz. İptal ettiğinizde abonelik, ödediğiniz dönemin sonuna kadar açık kalır.</li><li>Satın almaları Apple işler. İade talepleri Apple'a, Apple'ın kurallarına göre yapılır.</li><li>Uygulamayı yeniden yüklerseniz ya da yeni bir cihaza geçerseniz, satın almalarınızı uygulamadaki "Geri Yükle" ile geri getirebilirsiniz.</li><li>Aboneliğin içeriği ve fiyatı değişebilir. Fiyat değişiklikleri Apple'ın kurallarına uygun olarak uygulanır.</li></ul>
+            <h2>Dini içerik</h2>
+            <p>Mealler, Kur'an'ın kendisi değil; anlamının çevirmenlerce yapılmış yorumlarıdır. Uygulamadaki içerik genel bilgi ve kişisel tefekkür içindir; dini hüküm ya da fetva yerine geçmez. Dini konularda karar verirken güvendiğiniz bir âlime danışın. İçeriğe özen gösteririz, ancak eksiksiz ya da hatasız olduğunu garanti etmeyiz. Bir hata fark ederseniz bize bildirmeniz bizi memnun eder.</p>
+            <h2>Üçüncü taraf içerik</h2>
+            <p>Kur'an metni, mealler, tilavetler ve uygulamadaki diğer içeriklerin bir kısmı üçüncü taraflara aittir ve kendi şartlarına tabidir. Kaynaklar, uygulamadaki "Kaynaklar" sayfasında listelenir.</p>
+            <h2>Yazdığınız içerik</h2>
+            <p>Bir özellik içerik yazmanıza izin veriyorsa (örneğin dualar), yazdıklarınızdan siz sorumlusunuz. Yasa dışı, saldırgan, nefret içeren ya da başkalarının haklarını ihlal eden içerik yazmayın. İçerik başkalarıyla paylaşılıyorsa, bu koşullara aykırı içeriği kaldırabilir ve erişimi kısıtlayabiliriz.</p>
+            <h2>Kullanım kuralları</h2>
+            <p>Uygulamayı yasalara uygun kullanmayı kabul edersiniz. Uygulamanın çalışmasını bozmaya çalışmamayı, uygulamayı ya da içeriğini izinsiz kopyalayıp dağıtmamayı, kaynak kodunu çözmeye çalışmamayı ve kötüye kullanmamayı kabul edersiniz.</p>
+            <h2>Fikri mülkiyet</h2>
+            <p>Uygulamanın tasarımı, kodu, görselleri ve adı bize ya da lisans verenlerimize aittir. Bu koşullar size uygulamayı kişisel olarak kullanma hakkı dışında bir hak vermez.</p>
+            <h2>Garanti reddi</h2>
+            <p>Uygulama "olduğu gibi" ve "mevcut haliyle" sunulur. Yasaların izin verdiği ölçüde, uygulamanın kesintisiz, hatasız ya da belirli bir amaca uygun olacağına dair hiçbir garanti vermeyiz.</p>
+            <h2>Sorumluluğun sınırlanması</h2>
+            <p>Yasaların izin verdiği en geniş ölçüde; uygulamanın kullanımından ya da kullanılamamasından doğan dolaylı, arızi ya da sonuç olarak ortaya çıkan zararlardan ve veri kayıplarından sorumlu değiliz. Bu, cihazda yer azaldığında işletim sisteminin indirilmiş içerikleri silmesini de kapsar. Her durumda toplam sorumluluğumuz, son 12 ayda uygulama için ödediğiniz tutarla sınırlıdır. Bu sınırlamalar kast ve ağır ihmal hallerinde, ayrıca yasaların sorumluluğun sınırlanmasına izin vermediği durumlarda uygulanmaz.</p>
+            <h2>Sonlandırma</h2>
+            <p>Uygulamayı dilediğiniz zaman silerek kullanmayı bırakabilirsiniz; aboneliği iptal etmek için Apple kimliğinizin ayarlarını kullanmanız gerekir. Bu koşullara aykırı davranırsanız uygulamaya erişiminizi kısıtlayabiliriz.</p>
+            <h2>Uygulanacak hukuk</h2>
+            <p>Bu koşullar Türkiye Cumhuriyeti kanunlarına tabidir. Tüketici olarak bulunduğunuz ülkenin zorunlu kurallarından doğan haklarınız saklıdır.</p>
+            <h2>Değişiklikler</h2>
+            <p>Bu koşulları zaman zaman güncelleyebiliriz. Güncel hali bu sayfada yayımlanır; üstteki tarih son değişikliği gösterir. Değişiklikten sonra uygulamayı kullanmaya devam etmeniz, güncel koşulları kabul ettiğiniz anlamına gelir.</p>
+            <h2>Geçersiz hükümler</h2>
+            <p>Bu koşulların herhangi bir hükmü geçersiz sayılırsa, diğer hükümler geçerliliğini korur.</p>
+            <h2>İletişim</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="en" lang="en" dir="ltr" data-title="Terms of Use" hidden>
+            <p class="updated">Last updated: 25 October 2026</p>
+            <p>By downloading or using the app, you agree to these terms and to Apple's Standard Licensed Application End User License Agreement (EULA). If you don't agree, please don't use the app. "We" refers to the app's developer (the person shown as the app's seller on the App Store).</p>
+            <h2>The app</h2>
+            <p>The app offers religious content such as the Quran text, translations, recitations, daily verses and prayers for your personal, non-commercial use. Some features require a subscription. We may change, suspend or discontinue the app's features and content at any time.</p>
+            <h2>Subscription</h2>
+            <ul><li>The length and price of the subscription are shown in the app before you buy.</li><li>Payment is charged to your Apple ID when you confirm the purchase.</li><li>The subscription renews automatically unless auto-renewal is turned off at least 24 hours before the end of the current period. The renewal is charged within the 24 hours before the period ends.</li><li>If a free trial is offered and you don't cancel at least 24 hours before it ends, you will be charged when the trial ends. Any unused part of a trial ends when you buy a subscription.</li><li>You can manage or cancel your subscription in your Apple ID's subscription settings. After you cancel, the subscription stays active until the end of the period you've paid for.</li><li>Apple processes purchases. Refund requests are made to Apple, under Apple's rules.</li><li>If you reinstall the app or move to a new device, you can bring back your purchases with "Restore" in the app.</li><li>The content and price of the subscription may change. Price changes are applied in line with Apple's rules.</li></ul>
+            <h2>Religious content</h2>
+            <p>Translations are not the Quran itself but translators' renderings of its meaning. The content in the app is for general information and personal reflection; it is not a religious ruling or fatwa. Consult a scholar you trust when making religious decisions. We take care with the content but don't guarantee that it is complete or free of errors. If you notice an error, we'd be glad to hear about it.</p>
+            <h2>Third-party content</h2>
+            <p>Some of the Quran text, translations, recitations and other content in the app belong to third parties and are subject to their own terms. The sources are listed on the "Sources" page in the app.</p>
+            <h2>Content you write</h2>
+            <p>If a feature lets you write content (such as prayers), you are responsible for what you write. Don't write content that is unlawful, offensive, hateful or that infringes the rights of others. If content is shared with others, we may remove content that breaks these terms and restrict access.</p>
+            <h2>Rules of use</h2>
+            <p>You agree to use the app lawfully. You agree not to try to disrupt how the app works, not to copy or distribute the app or its content without permission, not to try to reverse engineer it and not to misuse it.</p>
+            <h2>Intellectual property</h2>
+            <p>The app's design, code, graphics and name belong to us or our licensors. These terms give you no rights other than the right to use the app personally.</p>
+            <h2>Disclaimer</h2>
+            <p>The app is provided "as is" and "as available". To the extent permitted by law, we give no warranty that the app will be uninterrupted, free of errors or fit for a particular purpose.</p>
+            <h2>Limitation of liability</h2>
+            <p>To the fullest extent permitted by law, we are not liable for indirect, incidental or consequential damages, or for loss of data, arising from the use of the app or the inability to use it. This includes the operating system deleting downloaded content when the device runs low on space. In any case, our total liability is limited to the amount you paid for the app in the last 12 months. These limitations do not apply in cases of intent or gross negligence, or where the law does not allow liability to be limited.</p>
+            <h2>Termination</h2>
+            <p>You can stop using the app at any time by deleting it; to cancel a subscription, use your Apple ID settings. If you break these terms, we may restrict your access to the app.</p>
+            <h2>Governing law</h2>
+            <p>These terms are governed by the laws of the Republic of Türkiye. Your rights under the mandatory consumer laws of the country you live in are not affected.</p>
+            <h2>Changes</h2>
+            <p>We may update these terms from time to time. The current version is published on this page; the date at the top shows the latest change. Continuing to use the app after a change means that you accept the updated terms.</p>
+            <h2>Severability</h2>
+            <p>If any provision of these terms is found to be invalid, the other provisions remain in effect.</p>
+            <h2>Contact</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="ar" lang="ar" dir="rtl" data-title="شروط الاستخدام" hidden>
+            <p class="updated">آخر تحديث: ٢٥ أكتوبر ٢٠٢٦</p>
+            <p>بتنزيلك التطبيق أو استخدامه، فإنك توافق على هذه الشروط وعلى اتفاقية ترخيص المستخدم النهائي القياسية من Apple للتطبيقات المرخّصة (‏EULA‏). وإن لم توافق عليها، فيُرجى عدم استخدام التطبيق. ويُقصد بكلمة "نحن" مطوّر التطبيق (الشخص الذي يظهر بصفته بائع التطبيق في App Store).</p>
+            <h2>التطبيق</h2>
+            <p>يقدّم التطبيق محتوى دينيًا، مثل نص القرآن الكريم وترجمات معانيه والتلاوات وآيات اليوم والأدعية، لاستخدامك الشخصي غير التجاري. وتتطلب بعض الميزات اشتراكًا. ويجوز لنا تغيير ميزات التطبيق ومحتواه أو تعليقها أو إيقافها نهائيًا في أي وقت.</p>
+            <h2>الاشتراك</h2>
+            <ul><li>تُعرض مدة الاشتراك وسعره في التطبيق قبل الشراء.</li><li>يُخصم المبلغ من حساب Apple ID الخاص بك عند تأكيد الشراء.</li><li>يتجدد الاشتراك تلقائيًا ما لم يُوقَف التجديد التلقائي قبل نهاية الفترة الحالية بـ٢٤ ساعة على الأقل. ويُخصم مبلغ التجديد خلال الـ٢٤ ساعة السابقة لنهاية الفترة.</li><li>إذا عُرضت تجربة مجانية ولم تُلغِها قبل انتهائها بـ٢٤ ساعة على الأقل، فسيُخصم المبلغ عند انتهاء التجربة. وينتهي أي جزء غير مستخدَم من التجربة عند شرائك اشتراكًا.</li><li>يمكنك إدارة اشتراكك أو إلغاؤه من إعدادات الاشتراكات في حساب Apple ID الخاص بك. وبعد الإلغاء يبقى الاشتراك فعّالًا حتى نهاية الفترة التي دفعت ثمنها.</li><li>تعالج Apple عمليات الشراء. وتُقدَّم طلبات استرداد المبالغ إلى Apple وفق قواعدها.</li><li>إذا أعدت تثبيت التطبيق أو انتقلت إلى جهاز جديد، فيمكنك استرجاع مشترياتك عبر "استعادة" في التطبيق.</li><li>قد يتغير محتوى الاشتراك وسعره. وتُطبَّق تغييرات الأسعار وفقًا لقواعد Apple.</li></ul>
+            <h2>المحتوى الديني</h2>
+            <p>ترجمات المعاني ليست القرآن نفسه، بل هي نقل المترجمين لمعانيه. والمحتوى في التطبيق للمعلومات العامة والتأمل الشخصي، وليس حكمًا شرعيًا أو فتوى. استشر عالِمًا تثق به عند اتخاذ قراراتك الدينية. نعتني بالمحتوى، لكننا لا نضمن أنه كامل أو خالٍ من الأخطاء. وإذا لاحظت خطأً، فيسعدنا أن تخبرنا به.</p>
+            <h2>محتوى الجهات الخارجية</h2>
+            <p>جزءٌ من نص القرآن والترجمات والتلاوات وغيرها من المحتوى في التطبيق مملوكٌ لجهات خارجية ويخضع لشروطها الخاصة. والمصادر مدرجة في صفحة "المصادر" في التطبيق.</p>
+            <h2>المحتوى الذي تكتبه</h2>
+            <p>إذا كانت إحدى الميزات تتيح لك كتابة محتوى (مثل الأدعية)، فأنت مسؤول عمّا تكتبه. لا تكتب محتوى مخالفًا للقانون أو مسيئًا أو يحض على الكراهية أو ينتهك حقوق الآخرين. وإذا كان المحتوى يُشارَك مع الآخرين، فيجوز لنا إزالة المحتوى المخالف لهذه الشروط وتقييد الوصول.</p>
+            <h2>قواعد الاستخدام</h2>
+            <p>توافق على استخدام التطبيق وفقًا للقانون. كما توافق على ألا تحاول تعطيل عمل التطبيق، وألا تنسخ التطبيق أو محتواه أو توزعه دون إذن، وألا تحاول إجراء هندسة عكسية له، وألا تسيء استخدامه.</p>
+            <h2>الملكية الفكرية</h2>
+            <p>تصميم التطبيق وشيفرته ورسومه واسمه ملكٌ لنا أو للجهات المرخِّصة لنا. ولا تمنحك هذه الشروط أي حق سوى حق استخدام التطبيق استخدامًا شخصيًا.</p>
+            <h2>إخلاء الضمان</h2>
+            <p>يُقدَّم التطبيق "كما هو" و"حسب توفره". وفي الحدود التي يسمح بها القانون، لا نقدّم أي ضمان بأن يعمل التطبيق دون انقطاع، أو أن يكون خاليًا من الأخطاء، أو ملائمًا لغرض معيّن.</p>
+            <h2>تحديد المسؤولية</h2>
+            <p>إلى أقصى حد يسمح به القانون، لا نتحمل المسؤولية عن الأضرار غير المباشرة أو العرضية أو التبعية، ولا عن فقدان البيانات، الناشئة عن استخدام التطبيق أو تعذّر استخدامه. ويشمل ذلك حذف نظام التشغيل للمحتوى المنزَّل عندما تنخفض المساحة المتاحة على الجهاز. وفي جميع الأحوال، تقتصر مسؤوليتنا الإجمالية على المبلغ الذي دفعته مقابل التطبيق خلال آخر ١٢ شهرًا. ولا تسري هذه القيود في حالات العمد أو الإهمال الجسيم، ولا حيث لا يجيز القانون تحديد المسؤولية.</p>
+            <h2>إنهاء الاستخدام</h2>
+            <p>يمكنك التوقف عن استخدام التطبيق في أي وقت بحذفه؛ أما إلغاء الاشتراك فيتم من إعدادات حساب Apple ID الخاص بك. وإذا خالفت هذه الشروط، فيجوز لنا تقييد وصولك إلى التطبيق.</p>
+            <h2>القانون الواجب التطبيق</h2>
+            <p>تخضع هذه الشروط لقوانين جمهورية تركيا. ولا يمسّ ذلك حقوقك المكفولة بموجب قوانين حماية المستهلك الإلزامية في البلد الذي تقيم فيه.</p>
+            <h2>التغييرات</h2>
+            <p>قد نحدّث هذه الشروط من وقت لآخر. وتُنشر النسخة الحالية في هذه الصفحة، ويشير التاريخ في الأعلى إلى آخر تغيير. ويعني استمرارك في استخدام التطبيق بعد أي تغيير قبولك للشروط المحدَّثة.</p>
+            <h2>استقلالية الأحكام</h2>
+            <p>إذا تبيّن أن أي حكم من أحكام هذه الشروط باطل، تظل بقية الأحكام سارية.</p>
+            <h2>التواصل</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="id" lang="id" dir="ltr" data-title="Ketentuan Penggunaan" hidden>
+            <p class="updated">Terakhir diperbarui: 25 Oktober 2026</p>
+            <p>Dengan mengunduh atau menggunakan aplikasi, Anda menyetujui ketentuan ini dan Perjanjian Lisensi Pengguna Akhir Aplikasi Berlisensi Standar (EULA) dari Apple. Jika Anda tidak setuju, mohon jangan gunakan aplikasi ini. "Kami" berarti pengembang aplikasi (orang yang tercantum sebagai penjual aplikasi di App Store).</p>
+            <h2>Aplikasi</h2>
+            <p>Aplikasi ini menyajikan konten keagamaan seperti teks Al‑Qur'an, terjemahan, bacaan, ayat harian, dan doa untuk penggunaan pribadi dan nonkomersial Anda. Beberapa fitur memerlukan langganan. Kami dapat mengubah, menangguhkan, atau menghentikan fitur dan konten aplikasi kapan saja.</p>
+            <h2>Langganan</h2>
+            <ul><li>Durasi dan harga langganan ditampilkan di aplikasi sebelum Anda membeli.</li><li>Pembayaran ditagihkan ke ID Apple Anda saat Anda mengonfirmasi pembelian.</li><li>Langganan diperpanjang secara otomatis kecuali perpanjangan otomatis dimatikan paling lambat 24 jam sebelum periode berjalan berakhir. Biaya perpanjangan ditagihkan dalam 24 jam sebelum periode berakhir.</li><li>Jika uji coba gratis ditawarkan dan Anda tidak membatalkannya paling lambat 24 jam sebelum uji coba berakhir, Anda akan ditagih saat uji coba berakhir. Bagian uji coba yang belum terpakai akan hangus saat Anda membeli langganan.</li><li>Anda dapat mengelola atau membatalkan langganan di pengaturan langganan ID Apple Anda. Setelah Anda membatalkan, langganan tetap aktif hingga akhir periode yang telah Anda bayar.</li><li>Pembelian diproses oleh Apple. Permintaan pengembalian dana diajukan kepada Apple sesuai dengan aturan Apple.</li><li>Jika Anda memasang ulang aplikasi atau berpindah ke perangkat baru, Anda dapat mengembalikan pembelian Anda melalui "Pulihkan" di aplikasi.</li><li>Isi dan harga langganan dapat berubah. Perubahan harga diterapkan sesuai dengan aturan Apple.</li></ul>
+            <h2>Konten keagamaan</h2>
+            <p>Terjemahan bukanlah Al‑Qur'an itu sendiri, melainkan penyampaian maknanya oleh para penerjemah. Konten dalam aplikasi ini ditujukan sebagai informasi umum dan bahan perenungan pribadi; konten tersebut bukan ketetapan hukum agama atau fatwa. Berkonsultasilah dengan ulama yang Anda percayai saat mengambil keputusan keagamaan. Kami menyajikan konten dengan cermat, tetapi tidak menjamin bahwa konten tersebut lengkap atau bebas dari kesalahan. Jika Anda menemukan kesalahan, kami akan senang jika Anda memberi tahu kami.</p>
+            <h2>Konten pihak ketiga</h2>
+            <p>Sebagian teks Al‑Qur'an, terjemahan, bacaan, dan konten lain dalam aplikasi adalah milik pihak ketiga dan tunduk pada ketentuan mereka sendiri. Sumbernya tercantum di halaman "Sumber" dalam aplikasi.</p>
+            <h2>Konten yang Anda tulis</h2>
+            <p>Jika suatu fitur memungkinkan Anda menulis konten (misalnya doa), Anda bertanggung jawab atas apa yang Anda tulis. Jangan menulis konten yang melawan hukum, menyinggung, mengandung kebencian, atau melanggar hak orang lain. Jika konten dibagikan kepada orang lain, kami dapat menghapus konten yang bertentangan dengan ketentuan ini dan membatasi akses.</p>
+            <h2>Aturan penggunaan</h2>
+            <p>Anda setuju untuk menggunakan aplikasi sesuai dengan hukum. Anda setuju untuk tidak mencoba mengganggu cara kerja aplikasi, tidak menyalin atau mendistribusikan aplikasi maupun kontennya tanpa izin, tidak mencoba merekayasa balik aplikasi, dan tidak menyalahgunakannya.</p>
+            <h2>Kekayaan intelektual</h2>
+            <p>Desain, kode, grafis, dan nama aplikasi adalah milik kami atau pemberi lisensi kami. Ketentuan ini tidak memberi Anda hak apa pun selain hak untuk menggunakan aplikasi secara pribadi.</p>
+            <h2>Penafian</h2>
+            <p>Aplikasi disediakan "sebagaimana adanya" dan "sebagaimana tersedia". Sejauh diizinkan oleh hukum, kami tidak memberikan jaminan apa pun bahwa aplikasi akan berjalan tanpa gangguan, bebas dari kesalahan, atau sesuai untuk tujuan tertentu.</p>
+            <h2>Batasan tanggung jawab</h2>
+            <p>Dalam batas maksimal yang diizinkan oleh hukum, kami tidak bertanggung jawab atas kerugian tidak langsung, insidental, atau konsekuensial, maupun atas kehilangan data, yang timbul dari penggunaan aplikasi atau ketidakmampuan untuk menggunakannya. Hal ini termasuk penghapusan konten yang diunduh oleh sistem operasi saat ruang penyimpanan perangkat hampir penuh. Dalam keadaan apa pun, total tanggung jawab kami terbatas pada jumlah yang Anda bayarkan untuk aplikasi dalam 12 bulan terakhir. Batasan ini tidak berlaku dalam hal kesengajaan atau kelalaian berat, atau apabila hukum tidak mengizinkan pembatasan tanggung jawab.</p>
+            <h2>Pengakhiran</h2>
+            <p>Anda dapat berhenti menggunakan aplikasi kapan saja dengan menghapusnya; untuk membatalkan langganan, gunakan pengaturan ID Apple Anda. Jika Anda melanggar ketentuan ini, kami dapat membatasi akses Anda ke aplikasi.</p>
+            <h2>Hukum yang berlaku</h2>
+            <p>Ketentuan ini diatur oleh hukum Republik Turki. Hak Anda berdasarkan ketentuan perlindungan konsumen yang bersifat memaksa di negara tempat Anda tinggal tetap berlaku.</p>
+            <h2>Perubahan</h2>
+            <p>Kami dapat memperbarui ketentuan ini dari waktu ke waktu. Versi terbaru dipublikasikan di halaman ini; tanggal di bagian atas menunjukkan perubahan terakhir. Tetap menggunakan aplikasi setelah suatu perubahan berarti Anda menerima ketentuan yang diperbarui.</p>
+            <h2>Keterpisahan</h2>
+            <p>Jika salah satu bagian dari ketentuan ini dinyatakan tidak sah, bagian lainnya tetap berlaku.</p>
+            <h2>Kontak</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="ms" lang="ms" dir="ltr" data-title="Terma Penggunaan" hidden>
+            <p class="updated">Kemas kini terakhir: 25 Oktober 2026</p>
+            <p>Dengan memuat turun atau menggunakan aplikasi, anda bersetuju dengan terma ini dan Perjanjian Lesen Pengguna Akhir Aplikasi Berlesen Standard (EULA) Apple. Jika anda tidak bersetuju, sila jangan gunakan aplikasi ini. "Kami" merujuk kepada pembangun aplikasi (individu yang dinyatakan sebagai penjual aplikasi di App Store).</p>
+            <h2>Aplikasi</h2>
+            <p>Aplikasi ini menyediakan kandungan agama seperti teks Al‑Quran, terjemahan, bacaan, ayat harian dan doa untuk kegunaan peribadi dan bukan komersial anda. Sesetengah ciri memerlukan langganan. Kami boleh mengubah, menggantung atau menghentikan ciri dan kandungan aplikasi pada bila‑bila masa.</p>
+            <h2>Langganan</h2>
+            <ul><li>Tempoh dan harga langganan dipaparkan dalam aplikasi sebelum anda membeli.</li><li>Bayaran dicaj pada ID Apple anda apabila anda mengesahkan pembelian.</li><li>Langganan diperbaharui secara automatik melainkan pembaharuan automatik dimatikan sekurang‑kurangnya 24 jam sebelum tamat tempoh semasa. Caj pembaharuan dikenakan dalam tempoh 24 jam sebelum tempoh itu tamat.</li><li>Jika percubaan percuma ditawarkan dan anda tidak membatalkannya sekurang‑kurangnya 24 jam sebelum ia tamat, anda akan dicaj apabila percubaan tamat. Mana‑mana bahagian percubaan yang belum digunakan akan luput apabila anda membeli langganan.</li><li>Anda boleh mengurus atau membatalkan langganan dalam tetapan langganan ID Apple anda. Selepas anda membatalkan, langganan kekal aktif sehingga akhir tempoh yang telah anda bayar.</li><li>Pembelian diproses oleh Apple. Permohonan bayaran balik dibuat kepada Apple, mengikut peraturan Apple.</li><li>Jika anda memasang semula aplikasi atau berpindah ke peranti baharu, anda boleh mendapatkan semula pembelian anda melalui "Pulihkan" dalam aplikasi.</li><li>Kandungan dan harga langganan mungkin berubah. Perubahan harga dikenakan selaras dengan peraturan Apple.</li></ul>
+            <h2>Kandungan agama</h2>
+            <p>Terjemahan bukanlah Al‑Quran itu sendiri, tetapi huraian maknanya oleh para penterjemah. Kandungan dalam aplikasi adalah untuk maklumat umum dan renungan peribadi; ia bukan keputusan hukum agama atau fatwa. Rujuklah ulama yang anda percayai apabila membuat keputusan berkaitan agama. Kami berhati‑hati dengan kandungan, tetapi tidak menjamin bahawa ia lengkap atau bebas daripada kesilapan. Jika anda mendapati sebarang kesilapan, kami berbesar hati jika anda memaklumkannya kepada kami.</p>
+            <h2>Kandungan pihak ketiga</h2>
+            <p>Sebahagian teks Al‑Quran, terjemahan, bacaan dan kandungan lain dalam aplikasi adalah milik pihak ketiga dan tertakluk pada terma mereka sendiri. Sumber‑sumbernya disenaraikan di halaman "Sumber" dalam aplikasi.</p>
+            <h2>Kandungan yang anda tulis</h2>
+            <p>Jika sesuatu ciri membolehkan anda menulis kandungan (seperti doa), anda bertanggungjawab atas apa yang anda tulis. Jangan tulis kandungan yang menyalahi undang‑undang, menyinggung, berunsur kebencian atau melanggar hak orang lain. Jika kandungan dikongsi dengan orang lain, kami boleh membuang kandungan yang melanggar terma ini dan menyekat akses.</p>
+            <h2>Peraturan penggunaan</h2>
+            <p>Anda bersetuju untuk menggunakan aplikasi secara sah di sisi undang‑undang. Anda bersetuju untuk tidak cuba mengganggu cara aplikasi berfungsi, tidak menyalin atau mengedarkan aplikasi atau kandungannya tanpa kebenaran, tidak cuba membuat kejuruteraan balikan terhadapnya dan tidak menyalahgunakannya.</p>
+            <h2>Harta intelek</h2>
+            <p>Reka bentuk, kod, grafik dan nama aplikasi adalah milik kami atau pemberi lesen kami. Terma ini tidak memberi anda sebarang hak selain hak untuk menggunakan aplikasi secara peribadi.</p>
+            <h2>Penafian</h2>
+            <p>Aplikasi ini disediakan "seadanya" dan "sebagaimana tersedia". Setakat yang dibenarkan oleh undang‑undang, kami tidak memberikan sebarang jaminan bahawa aplikasi akan berfungsi tanpa gangguan, bebas daripada ralat atau sesuai untuk sesuatu tujuan tertentu.</p>
+            <h2>Had liabiliti</h2>
+            <p>Setakat maksimum yang dibenarkan oleh undang‑undang, kami tidak bertanggungan atas kerugian tidak langsung, sampingan atau berbangkit, atau atas kehilangan data, yang timbul daripada penggunaan aplikasi atau ketidakupayaan untuk menggunakannya. Ini termasuk sistem pengendalian memadam kandungan yang dimuat turun apabila ruang storan peranti hampir penuh. Walau apa pun keadaannya, jumlah liabiliti kami terhad kepada amaun yang anda bayar untuk aplikasi dalam tempoh 12 bulan yang lalu. Had ini tidak terpakai dalam kes perbuatan sengaja atau kecuaian melampau, atau jika undang‑undang tidak membenarkan liabiliti dihadkan.</p>
+            <h2>Penamatan</h2>
+            <p>Anda boleh berhenti menggunakan aplikasi pada bila‑bila masa dengan memadamnya; untuk membatalkan langganan, gunakan tetapan ID Apple anda. Jika anda melanggar terma ini, kami boleh menyekat akses anda kepada aplikasi.</p>
+            <h2>Undang‑undang yang mentadbir</h2>
+            <p>Terma ini ditadbir oleh undang‑undang Republik Turkiye. Hak anda di bawah undang‑undang perlindungan pengguna yang bersifat mandatori di negara tempat anda tinggal tidak terjejas.</p>
+            <h2>Perubahan</h2>
+            <p>Kami mungkin mengemas kini terma ini dari semasa ke semasa. Versi terkini diterbitkan di halaman ini; tarikh di bahagian atas menunjukkan perubahan terakhir. Terus menggunakan aplikasi selepas sesuatu perubahan bermakna anda menerima terma yang dikemas kini.</p>
+            <h2>Kebolehasingan</h2>
+            <p>Jika mana‑mana peruntukan dalam terma ini didapati tidak sah, peruntukan lain kekal berkuat kuasa.</p>
+            <h2>Hubungi</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="fr" lang="fr" dir="ltr" data-title="Conditions d’utilisation" hidden>
+            <p class="updated">Dernière mise à jour : 25 octobre 2026</p>
+            <p>En téléchargeant ou en utilisant l’application, vous acceptez les présentes conditions ainsi que le Contrat de licence utilisateur final standard d’Apple pour les applications sous licence (EULA). Si vous ne les acceptez pas, merci de ne pas utiliser l’application. Dans ce texte, « nous » désigne le développeur de l’application (la personne indiquée comme vendeur de l’application sur l’App Store).</p>
+            <h2>L’application</h2>
+            <p>L’application propose, pour votre usage personnel et non commercial, des contenus religieux tels que le texte du Coran, des traductions, des récitations, des versets du jour et des invocations. Certaines fonctionnalités nécessitent un abonnement. Nous pouvons à tout moment modifier, suspendre ou interrompre les fonctionnalités et les contenus de l’application.</p>
+            <h2>Abonnement</h2>
+            <ul><li>La durée et le prix de l’abonnement sont affichés dans l’application avant l’achat.</li><li>Le paiement est débité de votre identifiant Apple lorsque vous confirmez l’achat.</li><li>L’abonnement se renouvelle automatiquement, sauf si le renouvellement automatique est désactivé au moins 24 heures avant la fin de la période en cours. Le renouvellement est débité dans les 24 heures précédant la fin de la période.</li><li>Si un essai gratuit est proposé et que vous ne l’annulez pas au moins 24 heures avant son terme, vous serez débité à la fin de l’essai. Toute partie inutilisée d’un essai prend fin lorsque vous achetez un abonnement.</li><li>Vous pouvez gérer ou résilier votre abonnement dans les réglages d’abonnement de votre identifiant Apple. Après la résiliation, l’abonnement reste actif jusqu’à la fin de la période déjà payée.</li><li>Les achats sont traités par Apple. Les demandes de remboursement s’adressent à Apple, selon les règles d’Apple.</li><li>Si vous réinstallez l’application ou changez d’appareil, vous pouvez récupérer vos achats avec « Restaurer » dans l’application.</li><li>Le contenu et le prix de l’abonnement peuvent changer. Les changements de prix s’appliquent conformément aux règles d’Apple.</li></ul>
+            <h2>Contenu religieux</h2>
+            <p>Les traductions ne sont pas le Coran lui-même, mais la façon dont leurs traducteurs en rendent le sens. Le contenu de l’application est destiné à l’information générale et à la réflexion personnelle ; il ne constitue ni un jugement religieux ni une fatwa. Pour toute décision religieuse, consultez un savant en qui vous avez confiance. Nous veillons à la qualité du contenu, mais nous ne garantissons pas qu’il soit complet ou exempt d’erreurs. Si vous remarquez une erreur, nous serons heureux que vous nous la signaliez.</p>
+            <h2>Contenus de tiers</h2>
+            <p>Une partie du texte du Coran, des traductions, des récitations et des autres contenus de l’application appartient à des tiers et est soumise à leurs propres conditions. Les sources sont indiquées sur la page « Sources » de l’application.</p>
+            <h2>Contenus que vous écrivez</h2>
+            <p>Si une fonctionnalité vous permet d’écrire du contenu (par exemple des invocations), vous êtes responsable de ce que vous écrivez. N’écrivez pas de contenu illégal, offensant, haineux ou portant atteinte aux droits d’autrui. Si du contenu est partagé avec d’autres personnes, nous pouvons retirer le contenu qui enfreint les présentes conditions et restreindre l’accès.</p>
+            <h2>Règles d’utilisation</h2>
+            <p>Vous vous engagez à utiliser l’application conformément à la loi. Vous vous engagez à ne pas chercher à perturber son fonctionnement, à ne pas copier ni distribuer l’application ou son contenu sans autorisation, à ne pas tenter d’en pratiquer l’ingénierie inverse et à ne pas en faire un usage abusif.</p>
+            <h2>Propriété intellectuelle</h2>
+            <p>Le design, le code, les visuels et le nom de l’application nous appartiennent ou appartiennent à nos concédants de licence. Les présentes conditions ne vous accordent aucun droit autre que celui d’utiliser l’application à titre personnel.</p>
+            <h2>Exclusion de garantie</h2>
+            <p>L’application est fournie « en l’état » et « selon sa disponibilité ». Dans la mesure permise par la loi, nous ne garantissons pas que l’application fonctionnera sans interruption ni erreur, ni qu’elle sera adaptée à un usage particulier.</p>
+            <h2>Limitation de responsabilité</h2>
+            <p>Dans toute la mesure permise par la loi, nous ne sommes pas responsables des dommages indirects, accessoires ou consécutifs, ni des pertes de données, résultant de l’utilisation de l’application ou de l’impossibilité de l’utiliser. Cela inclut la suppression, par le système d’exploitation, de contenus téléchargés lorsque l’espace de stockage de l’appareil vient à manquer. En tout état de cause, notre responsabilité totale est limitée au montant que vous avez payé pour l’application au cours des 12 derniers mois. Ces limitations ne s’appliquent pas en cas de faute intentionnelle ou de faute lourde, ni lorsque la loi ne permet pas de limiter la responsabilité.</p>
+            <h2>Résiliation</h2>
+            <p>Vous pouvez cesser d’utiliser l’application à tout moment en la supprimant ; pour résilier un abonnement, utilisez les réglages de votre identifiant Apple. Si vous enfreignez les présentes conditions, nous pouvons restreindre votre accès à l’application.</p>
+            <h2>Droit applicable</h2>
+            <p>Les présentes conditions sont régies par le droit de la République de Turquie. Les droits que vous confèrent les dispositions impératives de protection des consommateurs du pays où vous résidez ne sont pas affectés.</p>
+            <h2>Modifications</h2>
+            <p>Nous pouvons mettre à jour ces conditions de temps à autre. La version en vigueur est publiée sur cette page ; la date indiquée en haut correspond à la dernière modification. Continuer à utiliser l’application après une modification vaut acceptation des conditions mises à jour.</p>
+            <h2>Divisibilité</h2>
+            <p>Si une disposition des présentes conditions est jugée invalide, les autres dispositions restent en vigueur.</p>
+            <h2>Contact</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="de" lang="de" dir="ltr" data-title="Nutzungsbedingungen" hidden>
+            <p class="updated">Zuletzt aktualisiert: 25. Oktober 2026</p>
+            <p>Mit dem Herunterladen oder der Nutzung der App stimmst du diesen Bedingungen und Apples Standard-Endbenutzer-Lizenzvertrag für lizenzierte Apps (EULA) zu. Wenn du nicht einverstanden bist, nutze die App bitte nicht. In diesem Text bezeichnet „wir“ den Entwickler der App (die Person, die im App Store als Anbieter der App angegeben ist).</p>
+            <h2>Die App</h2>
+            <p>Die App bietet religiöse Inhalte wie den Korantext, Übersetzungen, Rezitationen, Verse des Tages und Bittgebete für deine persönliche, nicht kommerzielle Nutzung. Einige Funktionen setzen ein Abonnement voraus. Wir können die Funktionen und Inhalte der App jederzeit ändern, aussetzen oder einstellen.</p>
+            <h2>Abonnement</h2>
+            <ul><li>Laufzeit und Preis des Abonnements werden dir vor dem Kauf in der App angezeigt.</li><li>Die Zahlung wird bei Bestätigung des Kaufs über deine Apple-ID abgerechnet.</li><li>Das Abonnement verlängert sich automatisch, sofern die automatische Verlängerung nicht spätestens 24 Stunden vor Ende des laufenden Zeitraums deaktiviert wird. Die Verlängerung wird innerhalb der 24 Stunden vor Ende des Zeitraums abgerechnet.</li><li>Wird eine kostenlose Testphase angeboten und kündigst du nicht spätestens 24 Stunden vor ihrem Ende, erfolgt die Abrechnung mit Ablauf der Testphase. Ein nicht genutzter Teil einer Testphase verfällt, wenn du ein Abonnement kaufst.</li><li>Du kannst dein Abonnement in den Abo-Einstellungen deiner Apple-ID verwalten oder kündigen. Nach der Kündigung bleibt das Abonnement bis zum Ende des bezahlten Zeitraums aktiv.</li><li>Käufe werden von Apple abgewickelt. Erstattungsanträge richtest du nach Apples Regeln an Apple.</li><li>Wenn du die App neu installierst oder auf ein neues Gerät wechselst, kannst du deine Käufe in der App über „Wiederherstellen“ zurückholen.</li><li>Inhalt und Preis des Abonnements können sich ändern. Preisänderungen erfolgen gemäß Apples Regeln.</li></ul>
+            <h2>Religiöse Inhalte</h2>
+            <p>Übersetzungen sind nicht der Koran selbst, sondern die Wiedergabe seiner Bedeutung durch die Übersetzer. Die Inhalte der App dienen der allgemeinen Information und der persönlichen Besinnung; sie sind kein religiöses Urteil und keine Fatwa. Wende dich bei religiösen Entscheidungen an einen Gelehrten deines Vertrauens. Wir gehen sorgfältig mit den Inhalten um, garantieren aber nicht, dass sie vollständig oder fehlerfrei sind. Wenn dir ein Fehler auffällt, freuen wir uns über einen Hinweis.</p>
+            <h2>Inhalte Dritter</h2>
+            <p>Ein Teil des Korantexts, der Übersetzungen, der Rezitationen und anderer Inhalte der App gehört Dritten und unterliegt deren eigenen Bedingungen. Die Quellen sind auf der Seite „Quellen“ in der App aufgeführt.</p>
+            <h2>Inhalte, die du schreibst</h2>
+            <p>Wenn du mit einer Funktion Inhalte schreiben kannst (zum Beispiel Bittgebete), bist du für das, was du schreibst, verantwortlich. Schreibe keine Inhalte, die rechtswidrig, anstößig oder hasserfüllt sind oder die Rechte anderer verletzen. Werden Inhalte mit anderen geteilt, können wir Inhalte, die gegen diese Bedingungen verstoßen, entfernen und den Zugang einschränken.</p>
+            <h2>Nutzungsregeln</h2>
+            <p>Du verpflichtest dich, die App rechtmäßig zu nutzen. Du verpflichtest dich, nicht zu versuchen, den Betrieb der App zu stören, die App oder ihre Inhalte nicht ohne Erlaubnis zu kopieren oder zu verbreiten, nicht zu versuchen, sie zurückzuentwickeln, und sie nicht zu missbrauchen.</p>
+            <h2>Geistiges Eigentum</h2>
+            <p>Design, Code, Grafiken und Name der App gehören uns oder unseren Lizenzgebern. Diese Bedingungen räumen dir außer dem Recht, die App persönlich zu nutzen, keine Rechte ein.</p>
+            <h2>Gewährleistungsausschluss</h2>
+            <p>Die App wird „wie besehen“ und „wie verfügbar“ bereitgestellt. Soweit gesetzlich zulässig, übernehmen wir keine Gewähr dafür, dass die App unterbrechungsfrei, fehlerfrei oder für einen bestimmten Zweck geeignet ist.</p>
+            <h2>Haftungsbeschränkung</h2>
+            <p>Im weitesten gesetzlich zulässigen Umfang haften wir nicht für mittelbare Schäden, Neben- oder Folgeschäden oder für Datenverluste, die aus der Nutzung der App oder der Unmöglichkeit ihrer Nutzung entstehen. Dazu gehört auch, dass das Betriebssystem heruntergeladene Inhalte löscht, wenn der Speicherplatz auf dem Gerät knapp wird. In jedem Fall ist unsere Gesamthaftung auf den Betrag begrenzt, den du in den letzten 12 Monaten für die App bezahlt hast. Diese Beschränkungen gelten nicht bei Vorsatz oder grober Fahrlässigkeit sowie in Fällen, in denen das Gesetz eine Haftungsbeschränkung nicht zulässt.</p>
+            <h2>Beendigung</h2>
+            <p>Du kannst die Nutzung der App jederzeit beenden, indem du sie löschst; um ein Abonnement zu kündigen, nutze die Einstellungen deiner Apple-ID. Wenn du gegen diese Bedingungen verstößt, können wir deinen Zugang zur App einschränken.</p>
+            <h2>Anwendbares Recht</h2>
+            <p>Diese Bedingungen unterliegen dem Recht der Republik Türkei. Deine Rechte aus zwingenden Verbraucherschutzvorschriften des Landes, in dem du lebst, bleiben unberührt.</p>
+            <h2>Änderungen</h2>
+            <p>Wir können diese Bedingungen von Zeit zu Zeit aktualisieren. Die aktuelle Fassung wird auf dieser Seite veröffentlicht; das Datum oben zeigt die letzte Änderung. Wenn du die App nach einer Änderung weiter nutzt, akzeptierst du die aktualisierten Bedingungen.</p>
+            <h2>Salvatorische Klausel</h2>
+            <p>Sollte eine Bestimmung dieser Bedingungen unwirksam sein, bleiben die übrigen Bestimmungen wirksam.</p>
+            <h2>Kontakt</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="es" lang="es" dir="ltr" data-title="Términos de uso" hidden>
+            <p class="updated">Última actualización: 25 de octubre de 2026</p>
+            <p>Al descargar o usar la app, aceptas estos términos y el Contrato de Licencia de Usuario Final estándar de Apple para aplicaciones con licencia (EULA). Si no estás de acuerdo, por favor no uses la app. En este texto, “nosotros” se refiere al desarrollador de la app (la persona que aparece como vendedor de la app en el App Store).</p>
+            <h2>La app</h2>
+            <p>La app ofrece contenido religioso, como el texto del Corán, traducciones, recitaciones, aleyas del día y súplicas, para tu uso personal y no comercial. Algunas funciones requieren una suscripción. Podemos cambiar, suspender o descontinuar las funciones y el contenido de la app en cualquier momento.</p>
+            <h2>Suscripción</h2>
+            <ul><li>La duración y el precio de la suscripción se muestran en la app antes de comprar.</li><li>El pago se carga a tu Apple ID cuando confirmas la compra.</li><li>La suscripción se renueva automáticamente, a menos que la renovación automática se desactive al menos 24 horas antes de que termine el período en curso. La renovación se cobra dentro de las 24 horas previas al final del período.</li><li>Si se ofrece una prueba gratis y no la cancelas al menos 24 horas antes de que termine, se te cobrará al finalizar la prueba. Cualquier parte no utilizada de una prueba termina cuando compras una suscripción.</li><li>Puedes administrar o cancelar tu suscripción en los ajustes de suscripciones de tu Apple ID. Después de cancelar, la suscripción sigue activa hasta el final del período que ya pagaste.</li><li>Apple procesa las compras. Los reembolsos se solicitan a Apple, conforme a las reglas de Apple.</li><li>Si reinstalas la app o cambias a un dispositivo nuevo, puedes recuperar tus compras con “Restaurar” en la app.</li><li>El contenido y el precio de la suscripción pueden cambiar. Los cambios de precio se aplican conforme a las reglas de Apple.</li></ul>
+            <h2>Contenido religioso</h2>
+            <p>Las traducciones no son el Corán mismo, sino la forma en que sus traductores transmiten su significado. El contenido de la app es para información general y reflexión personal; no es un dictamen religioso ni una fetua. Consulta a un sabio de tu confianza cuando tomes decisiones religiosas. Cuidamos el contenido, pero no garantizamos que esté completo ni libre de errores. Si notas algún error, nos dará gusto que nos lo hagas saber.</p>
+            <h2>Contenido de terceros</h2>
+            <p>Parte del texto del Corán, las traducciones, las recitaciones y otros contenidos de la app pertenecen a terceros y están sujetos a sus propios términos. Las fuentes se indican en la página “Fuentes” de la app.</p>
+            <h2>Contenido que escribes</h2>
+            <p>Si una función te permite escribir contenido (por ejemplo, súplicas), eres responsable de lo que escribes. No escribas contenido ilegal, ofensivo, de odio o que infrinja los derechos de otras personas. Si el contenido se comparte con otras personas, podemos eliminar el contenido que incumpla estos términos y restringir el acceso.</p>
+            <h2>Reglas de uso</h2>
+            <p>Aceptas usar la app de conformidad con la ley. Aceptas no intentar interferir con el funcionamiento de la app, no copiar ni distribuir la app ni su contenido sin permiso, no intentar aplicarle ingeniería inversa y no hacer un uso indebido de ella.</p>
+            <h2>Propiedad intelectual</h2>
+            <p>El diseño, el código, los gráficos y el nombre de la app nos pertenecen a nosotros o a nuestros licenciantes. Estos términos no te otorgan ningún derecho aparte del derecho a usar la app de forma personal.</p>
+            <h2>Exclusión de garantías</h2>
+            <p>La app se ofrece “tal cual” y “según disponibilidad”. En la medida en que la ley lo permita, no garantizamos que la app funcione sin interrupciones ni errores, ni que sea adecuada para un fin determinado.</p>
+            <h2>Limitación de responsabilidad</h2>
+            <p>En la máxima medida permitida por la ley, no somos responsables de daños indirectos, incidentales o consecuenciales, ni de la pérdida de datos, derivados del uso de la app o de la imposibilidad de usarla. Esto incluye que el sistema operativo borre contenido descargado cuando el dispositivo se queda sin espacio. En cualquier caso, nuestra responsabilidad total se limita al monto que hayas pagado por la app en los últimos 12 meses. Estas limitaciones no se aplican en casos de dolo o negligencia grave, ni cuando la ley no permite limitar la responsabilidad.</p>
+            <h2>Terminación</h2>
+            <p>Puedes dejar de usar la app en cualquier momento borrándola; para cancelar una suscripción, usa los ajustes de tu Apple ID. Si incumples estos términos, podemos restringir tu acceso a la app.</p>
+            <h2>Ley aplicable</h2>
+            <p>Estos términos se rigen por las leyes de la República de Turquía. Esto no afecta los derechos que te otorgan las leyes imperativas de protección al consumidor del país donde vives.</p>
+            <h2>Cambios</h2>
+            <p>Podemos actualizar estos términos de vez en cuando. La versión vigente se publica en esta página; la fecha de arriba indica el último cambio. Seguir usando la app después de un cambio significa que aceptas los términos actualizados.</p>
+            <h2>Divisibilidad</h2>
+            <p>Si alguna disposición de estos términos se considera inválida, las demás disposiciones seguirán vigentes.</p>
+            <h2>Contacto</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="ru" lang="ru" dir="ltr" data-title="Условия использования" hidden>
+            <p class="updated">Последнее обновление: 25 октября 2026 г.</p>
+            <p>Скачивая или используя приложение, вы соглашаетесь с этими условиями и со стандартным лицензионным соглашением Apple с конечным пользователем для лицензированных приложений (EULA). Если вы не согласны, пожалуйста, не пользуйтесь приложением. В этом тексте «мы» — это разработчик приложения (лицо, указанное в App Store как продавец приложения).</p>
+            <h2>Приложение</h2>
+            <p>Приложение предлагает для вашего личного некоммерческого использования религиозные материалы, такие как текст Корана, переводы его смыслов, чтения, аяты дня и дуа. Для некоторых функций нужна подписка. Мы можем в любое время изменить, приостановить или прекратить предоставление функций и содержимого приложения.</p>
+            <h2>Подписка</h2>
+            <ul><li>Срок и цена подписки показываются в приложении до покупки.</li><li>Оплата списывается с вашего Apple ID, когда вы подтверждаете покупку.</li><li>Подписка продлевается автоматически, если автопродление не отключено как минимум за 24 часа до конца текущего периода. Оплата за продление списывается в течение 24 часов до окончания периода.</li><li>Если предлагается бесплатный пробный период и вы не отмените подписку как минимум за 24 часа до его окончания, оплата будет списана по окончании пробного периода. Неиспользованная часть пробного периода прекращается при покупке подписки.</li><li>Управлять подпиской или отменить её можно в настройках подписок вашего Apple ID. После отмены подписка действует до конца оплаченного периода.</li><li>Покупки обрабатывает Apple. Запросы на возврат средств направляются в Apple по правилам Apple.</li><li>Если вы переустановите приложение или перейдёте на новое устройство, вы сможете вернуть свои покупки с помощью кнопки «Восстановить» в приложении.</li><li>Содержание и цена подписки могут меняться. Изменения цены применяются в соответствии с правилами Apple.</li></ul>
+            <h2>Религиозное содержание</h2>
+            <p>Переводы — это не сам Коран, а передача его смысла переводчиками. Содержимое приложения предназначено для общего ознакомления и личного размышления; оно не является религиозным постановлением или фетвой. Принимая решения в вопросах религии, обращайтесь к учёному, которому вы доверяете. Мы внимательно относимся к содержимому, но не гарантируем его полноту и отсутствие в нём ошибок. Если вы заметите ошибку, мы будем рады, если вы сообщите нам о ней.</p>
+            <h2>Содержимое третьих лиц</h2>
+            <p>Часть текста Корана, переводов, чтений и другого содержимого приложения принадлежит третьим лицам и регулируется их собственными условиями. Источники перечислены на странице «Источники» в приложении.</p>
+            <h2>Содержимое, которое вы пишете</h2>
+            <p>Если функция позволяет вам писать содержимое (например, дуа), вы несёте ответственность за то, что пишете. Не пишите ничего незаконного, оскорбительного, разжигающего ненависть или нарушающего права других людей. Если содержимое становится доступно другим людям, мы можем удалить материалы, нарушающие эти условия, и ограничить доступ.</p>
+            <h2>Правила использования</h2>
+            <p>Вы соглашаетесь использовать приложение в соответствии с законом. Вы соглашаетесь не пытаться нарушить работу приложения, не копировать и не распространять приложение или его содержимое без разрешения, не пытаться выполнить его обратную разработку и не злоупотреблять им.</p>
+            <h2>Интеллектуальная собственность</h2>
+            <p>Дизайн, код, графика и название приложения принадлежат нам или нашим лицензиарам. Эти условия не дают вам никаких прав, кроме права пользоваться приложением в личных целях.</p>
+            <h2>Отказ от гарантий</h2>
+            <p>Приложение предоставляется «как есть» и «по мере доступности». В пределах, допускаемых законом, мы не даём никаких гарантий того, что приложение будет работать без перебоев и ошибок или подходить для определённой цели.</p>
+            <h2>Ограничение ответственности</h2>
+            <p>В максимальной степени, допускаемой законом, мы не несём ответственности за косвенный, случайный или последующий ущерб, а также за потерю данных, возникшие в результате использования приложения или невозможности им пользоваться. Это относится и к удалению операционной системой загруженного содержимого, когда на устройстве заканчивается место. В любом случае наша совокупная ответственность ограничена суммой, которую вы заплатили за приложение за последние 12 месяцев. Эти ограничения не применяются в случаях умысла или грубой неосторожности, а также когда закон не допускает ограничения ответственности.</p>
+            <h2>Прекращение использования</h2>
+            <p>Вы можете в любое время перестать пользоваться приложением, удалив его; чтобы отменить подписку, воспользуйтесь настройками вашего Apple ID. Если вы нарушаете эти условия, мы можем ограничить ваш доступ к приложению.</p>
+            <h2>Применимое право</h2>
+            <p>Эти условия регулируются законодательством Турецкой Республики. Ваши права, вытекающие из обязательных норм о защите прав потребителей страны, в которой вы проживаете, сохраняются.</p>
+            <h2>Изменения</h2>
+            <p>Мы можем время от времени обновлять эти условия. Актуальная версия публикуется на этой странице; дата вверху показывает последнее изменение. Продолжая пользоваться приложением после изменения, вы принимаете обновлённые условия.</p>
+            <h2>Недействительность отдельных положений</h2>
+            <p>Если какое-либо положение этих условий будет признано недействительным, остальные положения сохраняют силу.</p>
+            <h2>Связь</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="hi" lang="hi" dir="ltr" data-title="इस्तेमाल की शर्तें" hidden>
+            <p class="updated">आख़िरी अपडेट: 25 अक्तूबर 2026</p>
+            <p>ऐप को डाउनलोड या इस्तेमाल करके आप इन शर्तों से और लाइसेंसशुदा ऐप्स के लिए Apple के मानक एंड यूज़र लाइसेंस एग्रीमेंट (EULA) से सहमत होते हैं। अगर आप सहमत नहीं हैं, तो मेहरबानी करके ऐप इस्तेमाल न करें। इसमें "हम" का मतलब ऐप का डेवलपर है (वह व्यक्ति जो App Store पर ऐप के विक्रेता के तौर पर दिखाई देता है)।</p>
+            <h2>ऐप</h2>
+            <p>ऐप आपके ज़ाती, ग़ैर-तिजारती इस्तेमाल के लिए दीनी कंटेंट देता है, जैसे क़ुरआन का मतन, तर्जुमे, तिलावतें, आज की आयतें और दुआएँ। कुछ फ़ीचर के लिए सब्सक्रिप्शन ज़रूरी है। हम किसी भी समय ऐप के फ़ीचर और कंटेंट को बदल सकते हैं, कुछ समय के लिए रोक सकते हैं या बंद कर सकते हैं।</p>
+            <h2>सब्सक्रिप्शन</h2>
+            <ul><li>सब्सक्रिप्शन की अवधि और क़ीमत ख़रीदने से पहले ऐप में दिखाई जाती है।</li><li>ख़रीदारी की पुष्टि करने पर भुगतान आपकी Apple ID से लिया जाता है।</li><li>जब तक मौजूदा अवधि ख़त्म होने से कम से कम 24 घंटे पहले ऑटो-रिन्यू बंद न किया जाए, सब्सक्रिप्शन अपने आप रिन्यू हो जाता है। रिन्यूअल की रक़म अवधि ख़त्म होने से पहले के 24 घंटों के अंदर ली जाती है।</li><li>अगर मुफ़्त ट्रायल दिया जाता है और आप उसके ख़त्म होने से कम से कम 24 घंटे पहले उसे रद्द नहीं करते, तो ट्रायल ख़त्म होने पर आपसे रक़म ली जाएगी। सब्सक्रिप्शन ख़रीदने पर ट्रायल का इस्तेमाल न किया गया हिस्सा ख़त्म हो जाता है।</li><li>आप अपनी Apple ID की सब्सक्रिप्शन सेटिंग्स में अपना सब्सक्रिप्शन संभाल या रद्द कर सकते हैं। रद्द करने के बाद सब्सक्रिप्शन उस अवधि के आख़िर तक चालू रहता है जिसकी आपने क़ीमत चुकाई है।</li><li>ख़रीदारी Apple प्रोसेस करता है। रिफ़ंड के अनुरोध Apple के नियमों के मुताबिक़ Apple से किए जाते हैं।</li><li>अगर आप ऐप दोबारा इंस्टॉल करते हैं या नए डिवाइस पर जाते हैं, तो ऐप में "रिस्टोर करें" से अपनी ख़रीदारी वापस पा सकते हैं।</li><li>सब्सक्रिप्शन में शामिल चीज़ें और उसकी क़ीमत बदल सकती हैं। क़ीमत में बदलाव Apple के नियमों के मुताबिक़ लागू किए जाते हैं।</li></ul>
+            <h2>दीनी कंटेंट</h2>
+            <p>तर्जुमे ख़ुद क़ुरआन नहीं हैं, बल्कि तर्जुमा करने वालों की तरफ़ से उसके मानी की अदायगी हैं। ऐप का कंटेंट आम जानकारी और ज़ाती ग़ौर-ओ-फ़िक्र के लिए है; यह कोई शरई हुक्म या फ़तवा नहीं है। दीनी फ़ैसले लेते समय किसी भरोसेमंद आलिम से सलाह लें। हम कंटेंट के मामले में सावधानी बरतते हैं, लेकिन यह गारंटी नहीं देते कि वह पूरा है या उसमें कोई ग़लती नहीं है। अगर आपको कोई ग़लती नज़र आए, तो हमें बताएँ, हमें ख़ुशी होगी।</p>
+            <h2>तीसरे पक्ष का कंटेंट</h2>
+            <p>क़ुरआन के मतन, तर्जुमों, तिलावतों और ऐप के दूसरे कंटेंट का कुछ हिस्सा तीसरे पक्षों का है और उनकी अपनी शर्तों के अधीन है। स्रोतों की सूची ऐप के "स्रोत" पेज पर दी गई है।</p>
+            <h2>आपका लिखा हुआ कंटेंट</h2>
+            <p>अगर कोई फ़ीचर आपको कंटेंट लिखने देता है (जैसे दुआएँ), तो आप जो लिखते हैं, उसकी ज़िम्मेदारी आपकी है। ऐसा कंटेंट न लिखें जो ग़ैरक़ानूनी, अपमानजनक या नफ़रत भरा हो, या जो दूसरों के हक़ों का उल्लंघन करता हो। अगर कंटेंट दूसरों के साथ साझा होता है, तो इन शर्तों के ख़िलाफ़ जाने वाले कंटेंट को हम हटा सकते हैं और एक्सेस सीमित कर सकते हैं।</p>
+            <h2>इस्तेमाल के नियम</h2>
+            <p>आप ऐप को क़ानून के मुताबिक़ इस्तेमाल करने पर सहमत होते हैं। आप इस बात पर भी सहमत होते हैं कि ऐप के काम में रुकावट डालने की कोशिश नहीं करेंगे, ऐप या उसके कंटेंट को बिना इजाज़त कॉपी या वितरित नहीं करेंगे, उसे रिवर्स इंजीनियर करने की कोशिश नहीं करेंगे और उसका ग़लत इस्तेमाल नहीं करेंगे।</p>
+            <h2>बौद्धिक संपदा</h2>
+            <p>ऐप का डिज़ाइन, कोड, ग्राफ़िक्स और नाम हमारे या हमें लाइसेंस देने वालों के हैं। ये शर्तें आपको ऐप को ज़ाती तौर पर इस्तेमाल करने के हक़ के अलावा कोई और हक़ नहीं देतीं।</p>
+            <h2>वारंटी से इनकार</h2>
+            <p>ऐप "जैसा है" और "जैसा उपलब्ध है" के आधार पर दिया जाता है। क़ानून जितनी इजाज़त देता है, उस हद तक हम इस बात की कोई वारंटी नहीं देते कि ऐप बिना रुकावट चलेगा, ग़लतियों से मुक्त होगा या किसी ख़ास मक़सद के लिए उपयुक्त होगा।</p>
+            <h2>ज़िम्मेदारी की हद</h2>
+            <p>क़ानून जितनी ज़्यादा से ज़्यादा इजाज़त देता है, उस हद तक हम ऐप के इस्तेमाल से या उसे इस्तेमाल न कर पाने से होने वाले अप्रत्यक्ष, आकस्मिक या परिणामी नुक़सान, या डेटा खोने के लिए ज़िम्मेदार नहीं हैं। इसमें डिवाइस में जगह कम होने पर ऑपरेटिंग सिस्टम का डाउनलोड किया गया कंटेंट डिलीट कर देना भी शामिल है। हर हाल में हमारी कुल ज़िम्मेदारी उस रक़म तक सीमित है जो आपने पिछले 12 महीनों में ऐप के लिए चुकाई है। ये सीमाएँ जान-बूझकर किए गए काम या घोर लापरवाही के मामलों में लागू नहीं होतीं, और न ही वहाँ जहाँ क़ानून ज़िम्मेदारी को सीमित करने की इजाज़त नहीं देता।</p>
+            <h2>इस्तेमाल बंद करना</h2>
+            <p>आप किसी भी समय ऐप को डिलीट करके उसका इस्तेमाल बंद कर सकते हैं; सब्सक्रिप्शन रद्द करने के लिए अपनी Apple ID की सेटिंग्स इस्तेमाल करें। अगर आप इन शर्तों को तोड़ते हैं, तो हम ऐप तक आपकी पहुँच सीमित कर सकते हैं।</p>
+            <h2>लागू क़ानून</h2>
+            <p>ये शर्तें तुर्की गणराज्य के क़ानूनों के अधीन हैं। आप जिस देश में रहते हैं, वहाँ के अनिवार्य उपभोक्ता क़ानूनों के तहत मिलने वाले आपके हक़ों पर इसका कोई असर नहीं पड़ता।</p>
+            <h2>बदलाव</h2>
+            <p>हम समय‑समय पर इन शर्तों को अपडेट कर सकते हैं। मौजूदा वर्ज़न इसी पेज पर प्रकाशित किया जाता है; ऊपर दी गई तारीख़ आख़िरी बदलाव बताती है। किसी बदलाव के बाद ऐप इस्तेमाल करते रहने का मतलब है कि आप अपडेट की हुई शर्तें मानते हैं।</p>
+            <h2>अमान्य प्रावधान</h2>
+            <p>अगर इन शर्तों का कोई प्रावधान अमान्य पाया जाता है, तो बाक़ी प्रावधान लागू रहते हैं।</p>
+            <h2>राब्ता</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="bn" lang="bn" dir="ltr" data-title="ব্যবহারের শর্তাবলি" hidden>
+            <p class="updated">সর্বশেষ হালনাগাদ: ২৫ অক্টোবর ২০২৬</p>
+            <p>অ্যাপটি ডাউনলোড বা ব্যবহার করে আপনি এই শর্তাবলি এবং লাইসেন্সপ্রাপ্ত অ্যাপের জন্য Apple-এর স্ট্যান্ডার্ড এন্ড ইউজার লাইসেন্স এগ্রিমেন্ট (EULA) মেনে নিচ্ছেন। আপনি সম্মত না হলে অনুগ্রহ করে অ্যাপটি ব্যবহার করবেন না। এখানে "আমরা" বলতে অ্যাপের ডেভেলপারকে বোঝায় (App Store-এ অ্যাপের বিক্রেতা হিসেবে যে ব্যক্তিকে দেখানো হয়)।</p>
+            <h2>অ্যাপ</h2>
+            <p>অ্যাপটি আপনার ব্যক্তিগত ও অবাণিজ্যিক ব্যবহারের জন্য কুরআনের পাঠ, অনুবাদ, তিলাওয়াত, প্রতিদিনের আয়াত ও দোয়ার মতো দ্বীনি বিষয়বস্তু দেয়। কিছু ফিচারের জন্য সাবস্ক্রিপশন লাগে। আমরা যেকোনো সময় অ্যাপের ফিচার ও বিষয়বস্তু পরিবর্তন, স্থগিত বা বন্ধ করতে পারি।</p>
+            <h2>সাবস্ক্রিপশন</h2>
+            <ul><li>সাবস্ক্রিপশনের মেয়াদ ও দাম কেনার আগে অ্যাপে দেখানো হয়।</li><li>কেনাকাটা নিশ্চিত করলে আপনার Apple ID থেকে টাকা কাটা হয়।</li><li>চলতি মেয়াদ শেষ হওয়ার অন্তত ২৪ ঘণ্টা আগে স্বয়ংক্রিয় নবায়ন বন্ধ না করলে সাবস্ক্রিপশন নিজে থেকেই নবায়ন হয়। মেয়াদ শেষ হওয়ার আগের ২৪ ঘণ্টার মধ্যে নবায়নের টাকা কাটা হয়।</li><li>ফ্রি ট্রায়াল দেওয়া হলে এবং ট্রায়াল শেষ হওয়ার অন্তত ২৪ ঘণ্টা আগে আপনি তা বাতিল না করলে, ট্রায়াল শেষ হলেই টাকা কাটা হবে। সাবস্ক্রিপশন কিনলে ট্রায়ালের অব্যবহৃত অংশ শেষ হয়ে যায়।</li><li>আপনার Apple ID-এর সাবস্ক্রিপশন সেটিংসে গিয়ে সাবস্ক্রিপশন পরিচালনা বা বাতিল করতে পারেন। বাতিল করার পরও যে মেয়াদের টাকা দিয়েছেন, তার শেষ পর্যন্ত সাবস্ক্রিপশন চালু থাকে।</li><li>কেনাকাটা Apple প্রক্রিয়া করে। টাকা ফেরতের আবেদন Apple-এর নিয়ম অনুযায়ী Apple-এর কাছেই করতে হয়।</li><li>অ্যাপটি আবার ইনস্টল করলে বা নতুন ডিভাইসে গেলে অ্যাপের "রিস্টোর" দিয়ে আপনার কেনাকাটা ফিরিয়ে আনতে পারেন।</li><li>সাবস্ক্রিপশনে কী কী থাকবে এবং এর দাম বদলাতে পারে। দামের পরিবর্তন Apple-এর নিয়ম মেনে প্রয়োগ করা হয়।</li></ul>
+            <h2>দ্বীনি বিষয়বস্তু</h2>
+            <p>অনুবাদ খোদ কুরআন নয়, বরং অনুবাদকদের করা এর অর্থের ভাষান্তর। অ্যাপের বিষয়বস্তু সাধারণ তথ্য ও ব্যক্তিগত চিন্তাভাবনার জন্য; এটি কোনো শরয়ি বিধান বা ফতোয়া নয়। দ্বীনি বিষয়ে সিদ্ধান্ত নেওয়ার সময় আস্থাভাজন কোনো আলেমের পরামর্শ নিন। আমরা বিষয়বস্তুর ব্যাপারে যত্নবান, তবে তা সম্পূর্ণ বা ত্রুটিমুক্ত হওয়ার নিশ্চয়তা দিই না। কোনো ভুল চোখে পড়লে আমাদের জানালে আমরা খুশি হব।</p>
+            <h2>তৃতীয় পক্ষের বিষয়বস্তু</h2>
+            <p>অ্যাপের কুরআনের পাঠ, অনুবাদ, তিলাওয়াত ও অন্যান্য বিষয়বস্তুর একাংশ তৃতীয় পক্ষের মালিকানাধীন এবং তাদের নিজস্ব শর্তের অধীন। উৎসগুলোর তালিকা অ্যাপের "উৎস" পেজে দেওয়া আছে।</p>
+            <h2>আপনার লেখা বিষয়বস্তু</h2>
+            <p>কোনো ফিচারে আপনি বিষয়বস্তু লিখতে পারলে (যেমন দোয়া), আপনি যা লেখেন তার দায় আপনার। বেআইনি, আপত্তিকর বা ঘৃণাপূর্ণ কিছু, কিংবা অন্যের অধিকার লঙ্ঘন করে এমন কিছু লিখবেন না। বিষয়বস্তু অন্যদের সাথে শেয়ার করা হলে এই শর্তাবলি ভঙ্গ করে এমন বিষয়বস্তু আমরা সরিয়ে দিতে পারি এবং অ্যাক্সেস সীমিত করতে পারি।</p>
+            <h2>ব্যবহারের নিয়ম</h2>
+            <p>আপনি আইন মেনে অ্যাপটি ব্যবহার করতে সম্মত হচ্ছেন। এছাড়া আপনি অ্যাপটির কাজে বিঘ্ন ঘটানোর চেষ্টা না করতে, অনুমতি ছাড়া অ্যাপ বা এর বিষয়বস্তু কপি বা বিতরণ না করতে, একে রিভার্স ইঞ্জিনিয়ার করার চেষ্টা না করতে এবং এর অপব্যবহার না করতে সম্মত হচ্ছেন।</p>
+            <h2>মেধাস্বত্ব</h2>
+            <p>অ্যাপের ডিজাইন, কোড, গ্রাফিক্স ও নাম আমাদের বা আমাদের লাইসেন্সদাতাদের মালিকানাধীন। এই শর্তাবলি আপনাকে ব্যক্তিগতভাবে অ্যাপটি ব্যবহারের অধিকার ছাড়া অন্য কোনো অধিকার দেয় না।</p>
+            <h2>দাবিত্যাগ</h2>
+            <p>অ্যাপটি "যেমন আছে" এবং "যেমন পাওয়া যায়" ভিত্তিতে দেওয়া হয়। আইন যতটুকু অনুমতি দেয়, ততটুকু পর্যন্ত অ্যাপটি বাধাহীনভাবে চলবে, ত্রুটিমুক্ত হবে বা কোনো নির্দিষ্ট উদ্দেশ্যের উপযোগী হবে, এমন কোনো নিশ্চয়তা আমরা দিই না।</p>
+            <h2>দায়ের সীমা</h2>
+            <p>আইন সর্বোচ্চ যতটুকু অনুমতি দেয়, ততটুকু পর্যন্ত অ্যাপ ব্যবহার বা ব্যবহার করতে না পারার ফলে হওয়া পরোক্ষ, আনুষঙ্গিক বা পরিণামগত ক্ষতি কিংবা ডেটা হারানোর দায় আমরা নিই না। ডিভাইসে জায়গা কমে গেলে অপারেটিং সিস্টেম ডাউনলোড করা বিষয়বস্তু মুছে ফেললে, সেটিও এর অন্তর্ভুক্ত। যেকোনো ক্ষেত্রে আমাদের মোট দায় গত ১২ মাসে অ্যাপের জন্য আপনার পরিশোধ করা অর্থের মধ্যে সীমাবদ্ধ। ইচ্ছাকৃত অসদাচরণ বা গুরুতর অবহেলার ক্ষেত্রে, এবং যেখানে আইন দায় সীমিত করার অনুমতি দেয় না সেখানে, এই সীমাবদ্ধতা প্রযোজ্য নয়।</p>
+            <h2>ব্যবহারের সমাপ্তি</h2>
+            <p>অ্যাপটি মুছে ফেলে আপনি যেকোনো সময় এর ব্যবহার বন্ধ করতে পারেন; সাবস্ক্রিপশন বাতিল করতে আপনার Apple ID-এর সেটিংস ব্যবহার করুন। আপনি এই শর্তাবলি ভঙ্গ করলে আমরা অ্যাপে আপনার অ্যাক্সেস সীমিত করতে পারি।</p>
+            <h2>প্রযোজ্য আইন</h2>
+            <p>এই শর্তাবলি তুরস্ক প্রজাতন্ত্রের আইন দ্বারা পরিচালিত। আপনি যে দেশে থাকেন, সেখানকার বাধ্যতামূলক ভোক্তা সুরক্ষা আইনের অধীনে আপনার অধিকার এতে ক্ষুণ্ন হয় না।</p>
+            <h2>পরিবর্তন</h2>
+            <p>আমরা সময়ে সময়ে এই শর্তাবলি হালনাগাদ করতে পারি। বর্তমান সংস্করণ এই পেজে প্রকাশ করা হয়; ওপরের তারিখটি সর্বশেষ পরিবর্তন নির্দেশ করে। পরিবর্তনের পর অ্যাপ ব্যবহার চালিয়ে গেলে আপনি হালনাগাদ শর্তাবলি মেনে নিচ্ছেন বলে ধরা হবে।</p>
+            <h2>বিচ্ছেদযোগ্যতা</h2>
+            <p>এই শর্তাবলির কোনো বিধান অবৈধ বলে গণ্য হলে বাকি বিধানগুলো বলবৎ থাকবে।</p>
+            <h2>যোগাযোগ</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="ur" lang="ur" dir="rtl" data-title="استعمال کی شرائط" hidden>
+            <p class="updated">آخری تازہ کاری: 25 اکتوبر 2026</p>
+            <p>ایپ ڈاؤن لوڈ یا استعمال کر کے آپ ان شرائط سے اور لائسنس یافتہ ایپس کے لیے Apple کے معیاری اینڈ یوزر لائسنس معاہدے (‏EULA‏) سے اتفاق کرتے ہیں۔ اگر آپ متفق نہیں ہیں تو براہ کرم ایپ استعمال نہ کریں۔ اس متن میں "ہم" سے مراد ایپ کا ڈیولپر ہے (وہ شخص جو App Store پر ایپ کے فروخت کنندہ کے طور پر دکھائی دیتا ہے)۔</p>
+            <h2>ایپ</h2>
+            <p>ایپ آپ کے ذاتی اور غیر تجارتی استعمال کے لیے دینی مواد فراہم کرتی ہے، جیسے قرآن کا متن، تراجم، قراءتیں، آج کی آیات اور دعائیں۔ کچھ فیچرز کے لیے سبسکرپشن درکار ہے۔ ہم کسی بھی وقت ایپ کے فیچرز اور مواد کو بدل سکتے ہیں، عارضی طور پر روک سکتے ہیں یا ختم کر سکتے ہیں۔</p>
+            <h2>سبسکرپشن</h2>
+            <ul><li>سبسکرپشن کی مدت اور قیمت خریدنے سے پہلے ایپ میں دکھائی جاتی ہے۔</li><li>جب آپ خریداری کی تصدیق کرتے ہیں تو ادائیگی آپ کی Apple ID سے وصول کی جاتی ہے۔</li><li>جب تک موجودہ مدت ختم ہونے سے کم از کم 24 گھنٹے پہلے خودکار تجدید بند نہ کی جائے، سبسکرپشن خود بخود تجدید ہو جاتی ہے۔ تجدید کی رقم مدت ختم ہونے سے پہلے کے 24 گھنٹوں کے اندر وصول کی جاتی ہے۔</li><li>اگر مفت ٹرائل پیش کیا جائے اور آپ اسے ختم ہونے سے کم از کم 24 گھنٹے پہلے منسوخ نہ کریں تو ٹرائل ختم ہونے پر آپ سے رقم وصول کی جائے گی۔ سبسکرپشن خریدنے پر ٹرائل کا غیر استعمال شدہ حصہ ختم ہو جاتا ہے۔</li><li>آپ اپنی Apple ID کی سبسکرپشن ترتیبات میں اپنی سبسکرپشن کا انتظام کر سکتے ہیں یا اسے منسوخ کر سکتے ہیں۔ منسوخی کے بعد سبسکرپشن اس مدت کے آخر تک فعال رہتی ہے جس کی آپ ادائیگی کر چکے ہیں۔</li><li>خریداریاں Apple پراسیس کرتا ہے۔ رقم کی واپسی کی درخواستیں Apple کے قواعد کے مطابق Apple سے کی جاتی ہیں۔</li><li>اگر آپ ایپ دوبارہ انسٹال کریں یا نئی ڈیوائس پر منتقل ہوں تو ایپ میں "بحال کریں" کے ذریعے اپنی خریداریاں واپس لا سکتے ہیں۔</li><li>سبسکرپشن میں شامل چیزیں اور اس کی قیمت بدل سکتی ہیں۔ قیمت میں تبدیلیاں Apple کے قواعد کے مطابق لاگو کی جاتی ہیں۔</li></ul>
+            <h2>دینی مواد</h2>
+            <p>تراجم بذاتِ خود قرآن نہیں، بلکہ مترجمین کی طرف سے اس کے معانی کی ترجمانی ہیں۔ ایپ کا مواد عمومی معلومات اور ذاتی غور و فکر کے لیے ہے؛ یہ کوئی شرعی حکم یا فتویٰ نہیں ہے۔ دینی فیصلے کرتے وقت کسی قابلِ اعتماد عالم سے رجوع کریں۔ ہم مواد کے معاملے میں احتیاط برتتے ہیں، لیکن اس کے مکمل یا غلطیوں سے پاک ہونے کی ضمانت نہیں دیتے۔ اگر آپ کو کوئی غلطی نظر آئے تو ہمیں بتائیں، ہمیں خوشی ہوگی۔</p>
+            <h2>تیسرے فریق کا مواد</h2>
+            <p>قرآن کے متن، تراجم، قراءتوں اور ایپ کے دیگر مواد کا کچھ حصہ تیسرے فریقوں کی ملکیت ہے اور ان کی اپنی شرائط کے تابع ہے۔ ماخذ کی فہرست ایپ میں "ماخذ" کے صفحے پر دی گئی ہے۔</p>
+            <h2>آپ کا لکھا ہوا مواد</h2>
+            <p>اگر کوئی فیچر آپ کو مواد لکھنے کی اجازت دیتا ہے (مثلاً دعائیں)، تو آپ جو کچھ لکھتے ہیں اس کی ذمہ داری آپ پر ہے۔ ایسا مواد نہ لکھیں جو غیر قانونی، توہین آمیز یا نفرت انگیز ہو، یا دوسروں کے حقوق کی خلاف ورزی کرے۔ اگر مواد دوسروں کے ساتھ شیئر ہوتا ہے تو ہم ان شرائط کی خلاف ورزی کرنے والا مواد ہٹا سکتے ہیں اور رسائی محدود کر سکتے ہیں۔</p>
+            <h2>استعمال کے قواعد</h2>
+            <p>آپ ایپ کو قانون کے مطابق استعمال کرنے پر اتفاق کرتے ہیں۔ آپ اس بات پر بھی اتفاق کرتے ہیں کہ ایپ کے کام میں خلل ڈالنے کی کوشش نہیں کریں گے، ایپ یا اس کے مواد کو اجازت کے بغیر کاپی یا تقسیم نہیں کریں گے، اسے ریورس انجینئر کرنے کی کوشش نہیں کریں گے اور اس کا غلط استعمال نہیں کریں گے۔</p>
+            <h2>دانشورانہ ملکیت</h2>
+            <p>ایپ کا ڈیزائن، کوڈ، گرافکس اور نام ہماری یا ہمارے لائسنس دہندگان کی ملکیت ہیں۔ یہ شرائط آپ کو ایپ کو ذاتی طور پر استعمال کرنے کے حق کے سوا کوئی حق نہیں دیتیں۔</p>
+            <h2>ضمانت سے دستبرداری</h2>
+            <p>ایپ "جیسی ہے" اور "جیسی دستیاب ہے" کی بنیاد پر فراہم کی جاتی ہے۔ قانون جس حد تک اجازت دیتا ہے، ہم اس بات کی کوئی ضمانت نہیں دیتے کہ ایپ بلا تعطل چلے گی، غلطیوں سے پاک ہوگی یا کسی خاص مقصد کے لیے موزوں ہوگی۔</p>
+            <h2>ذمہ داری کی حد</h2>
+            <p>قانون جس زیادہ سے زیادہ حد تک اجازت دیتا ہے، اس حد تک ہم ایپ کے استعمال یا اسے استعمال نہ کر پانے سے پیدا ہونے والے بالواسطہ، ضمنی یا نتیجے کے طور پر ہونے والے نقصانات، یا ڈیٹا کے ضیاع کے ذمہ دار نہیں ہیں۔ اس میں ڈیوائس میں جگہ کم ہونے پر آپریٹنگ سسٹم کا ڈاؤن لوڈ کیا ہوا مواد حذف کر دینا بھی شامل ہے۔ ہر صورت میں ہماری کل ذمہ داری اس رقم تک محدود ہے جو آپ نے پچھلے 12 مہینوں میں ایپ کے لیے ادا کی ہو۔ یہ حدود عمداً کیے گئے فعل یا سنگین غفلت کی صورت میں لاگو نہیں ہوتیں، اور نہ ہی وہاں جہاں قانون ذمہ داری کو محدود کرنے کی اجازت نہیں دیتا۔</p>
+            <h2>استعمال کا خاتمہ</h2>
+            <p>آپ کسی بھی وقت ایپ حذف کر کے اس کا استعمال بند کر سکتے ہیں؛ سبسکرپشن منسوخ کرنے کے لیے اپنی Apple ID کی ترتیبات استعمال کریں۔ اگر آپ ان شرائط کی خلاف ورزی کریں تو ہم ایپ تک آپ کی رسائی محدود کر سکتے ہیں۔</p>
+            <h2>قابلِ اطلاق قانون</h2>
+            <p>یہ شرائط جمہوریہ ترکی کے قوانین کے تابع ہیں۔ آپ جس ملک میں رہتے ہیں وہاں کے لازمی صارف قوانین کے تحت آپ کے حقوق اس سے متاثر نہیں ہوتے۔</p>
+            <h2>تبدیلیاں</h2>
+            <p>ہم وقتاً فوقتاً ان شرائط کو تازہ کر سکتے ہیں۔ موجودہ ورژن اسی صفحے پر شائع کیا جاتا ہے؛ اوپر دی گئی تاریخ آخری تبدیلی بتاتی ہے۔ کسی تبدیلی کے بعد ایپ کا استعمال جاری رکھنے کا مطلب ہے کہ آپ تازہ شرائط قبول کرتے ہیں۔</p>
+            <h2>کالعدم شقیں</h2>
+            <p>اگر ان شرائط کی کوئی شق کالعدم قرار پائے تو باقی شقیں بدستور نافذ رہیں گی۔</p>
+            <h2>رابطہ</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <!-- /legal -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img class="footer__skyline" src="../assets/img/golden-skyline.webp" alt="" loading="lazy" aria-hidden="true">
+    <div class="wrap">
+      <div class="footer__grid">
+        <div>
+          <a class="brand" href="../"><img src="../assets/img/app-icon.webp" alt="" width="34" height="34"><span>Scroll Quran</span></a>
+          <p class="footer__tag" data-i18n="footer.tag">Günün ayetleri, Dua Odası ve Kur’an; tek, sakin bir uygulamada.</p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.app">Uygulama</h4>
+          <ul>
+            <li><a href="../#verses" data-i18n="nav.verses">Günün Ayetleri</a></li>
+            <li><a href="../#prayer" data-i18n="nav.prayer">Dua Odası</a></li>
+            <li><a href="../#quran" data-i18n="nav.quran">Kur’an</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.legal">Yasal</h4>
+          <ul>
+            <li><a href="../privacy/" data-i18n="footer.privacy">Gizlilik Politikası</a></li>
+            <li><a href="../terms/" aria-current="page" data-i18n="footer.terms">Kullanım Koşulları</a></li>
+            <li><a href="../credits/" data-i18n="footer.credits">Kaynaklar</a></li>
+            <li><button type="button" data-contact data-i18n="footer.contact">İletişim</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__sources">
+        <p data-i18n="footer.sources">Arapça metin: <a href="https://tanzil.net" rel="noopener">Tanzil Projesi</a> (CC BY 3.0, değiştirilmeden). Türkçe, Endonezce, Malayca, Fransızca, Almanca, İspanyolca, Rusça, Hintçe, Bengalce ve Urduca mealler ile Arapça tefsir: <a href="https://quranenc.com" rel="noopener">QuranEnc</a> (değiştirilmeden). İngilizce meal: Talal Itani, <a href="https://www.clearquran.com" rel="noopener">ClearQuran</a>. Tilavetler: <a href="https://alquran.cloud" rel="noopener">Islamic Network</a>. Kelime zamanlamaları: <a href="https://github.com/cpfair/quran-align" rel="noopener">quran-align</a>.</p>
+        <p data-i18n="footer.copy">© 2026 Scroll Quran</p>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="contact" data-contact-dialog aria-labelledby="contact-title">
+    <div class="contact__card">
+      <button class="contact__close" type="button" data-contact-close data-i18n-attr="aria-label:contact.close" aria-label="Kapat"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+      <img class="ornament" src="../assets/img/divider-ornate.webp" alt="" width="120" height="23">
+      <h2 id="contact-title" data-i18n="contact.title">Bize yaz</h2>
+      <p data-i18n="contact.body">Soru, öneri ya da bir hata bildirimi için bize e-posta gönderebilirsin.</p>
+      <div class="contact__email">
+        <span data-contact-email>support@furkanayan.app</span>
+        <button class="contact__copy" type="button" data-contact-copy data-i18n="contact.copy">Kopyala</button>
+      </div>
+      <a class="btn btn--gold" href="mailto:support@furkanayan.app?subject=Scroll%20Quran" data-i18n="contact.send">E-posta gönder</a>
+    </div>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title data-i18n="meta.title.privacy">Gizlilik Politikası · Scroll Quran</title>
+  <meta name="description" content="Scroll Quran’ın hangi verileri neden işlediği ve hakların." data-i18n-attr="content:meta.desc.privacy">
+  <meta name="theme-color" content="#071a12">
+  <link rel="icon" href="../assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="preload" href="../assets/fonts/CormorantGaramond-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <script src="../assets/js/i18n.js"></script>
+  <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M16.37 12.73c-.03-2.6 2.13-3.86 2.22-3.92-1.21-1.77-3.09-2.01-3.76-2.04-1.6-.16-3.12.94-3.94.94-.81 0-2.06-.92-3.39-.9-1.74.03-3.35 1.01-4.25 2.57-1.81 3.14-.46 7.8 1.3 10.35.86 1.25 1.89 2.65 3.24 2.6 1.3-.05 1.79-.84 3.36-.84 1.57 0 2.01.84 3.38.81 1.4-.02 2.29-1.27 3.14-2.53.99-1.45 1.4-2.85 1.42-2.93-.03-.01-2.72-1.04-2.75-4.14ZM13.78 5.1c.71-.87 1.2-2.07 1.06-3.27-1.03.04-2.28.69-3.02 1.55-.66.76-1.24 1.99-1.09 3.16 1.15.09 2.33-.58 3.05-1.44Z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 14 14"><path fill="none" stroke-linecap="round" d="M1 1l12 12M13 1 1 13"/></symbol>
+  </svg>
+
+  <a class="skip" href="#main" data-i18n="skip">İçeriğe geç</a>
+
+  <header class="nav" data-nav>
+    <div class="nav__inner wrap">
+      <a class="brand" href="../">
+        <img src="../assets/img/app-icon.webp" alt="" width="34" height="34">
+        <span>Scroll Quran</span>
+      </a>
+      <nav class="nav__links" aria-label="Scroll Quran">
+        <a href="../#verses" data-i18n="nav.verses">Günün Ayetleri</a>
+        <a href="../#prayer" data-i18n="nav.prayer">Dua Odası</a>
+        <a href="../#quran" data-i18n="nav.quran">Kur’an</a>
+        <button type="button" data-contact data-i18n="nav.contact">İletişim</button>
+      </nav>
+      <div class="nav__end">
+        <div class="lang" role="group" aria-label="Dil · Language">
+          <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="store store--sm" href="https://apps.apple.com/app/id6818659276"><svg aria-hidden="true"><use href="#i-apple"/></svg><span data-i18n="nav.download">İndir</span></a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" data-i18n-attr="aria-label:nav.menu" aria-label="Menü"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" data-menu>
+    <ol>
+      <li><a href="../" data-i18n="nav.home">Ana sayfa</a></li>
+      <li><a href="../privacy/" data-i18n="nav.privacy">Gizlilik</a></li>
+      <li><a href="../terms/" data-i18n="nav.terms">Koşullar</a></li>
+      <li><button type="button" data-contact data-i18n="nav.contact">İletişim</button></li>
+    </ol>
+    <div class="menu__foot">
+      <div class="lang" role="group" aria-label="Dil · Language">
+        <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="store store--sm" href="https://apps.apple.com/app/id6818659276"><svg aria-hidden="true"><use href="#i-apple"/></svg><span data-i18n="nav.download">İndir</span></a>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="legal-hero">
+      <div class="wrap">
+        <p class="eyebrow" lang="en" data-reveal>Scroll Quran</p>
+        <h1 class="display" data-split data-legal-title data-i18n="legal.privacy">Gizlilik Politikası</h1>
+        <p class="lead legal-hero__meta" data-reveal style="--d: 300ms" data-legal-lead data-i18n="legal.privacy_lead">Hangi verinin neden işlendiğini ve haklarını sade bir dille anlattık.</p>
+      </div>
+      <span class="legal-hero__arch" aria-hidden="true"></span>
+    </section>
+
+    <section class="legal">
+      <div class="wrap legal__grid">
+        <aside class="legal__toc">
+          <h2 data-i18n="legal.toc">Bu sayfada</h2>
+          <ol data-toc></ol>
+        </aside>
+        <div class="paper" data-reveal>
+          <!-- legal -->
+          <nav class="legal__langs" aria-label="Languages"><a href="?lang=tr" hreflang="tr" lang="tr" data-legal-lang="tr">Türkçe</a><a href="?lang=en" hreflang="en" lang="en" data-legal-lang="en">English</a><a href="?lang=ar" hreflang="ar" lang="ar" data-legal-lang="ar">العربية</a><a href="?lang=id" hreflang="id" lang="id" data-legal-lang="id">Bahasa Indonesia</a><a href="?lang=ms" hreflang="ms" lang="ms" data-legal-lang="ms">Bahasa Melayu</a><a href="?lang=fr" hreflang="fr" lang="fr" data-legal-lang="fr">Français</a><a href="?lang=de" hreflang="de" lang="de" data-legal-lang="de">Deutsch</a><a href="?lang=es" hreflang="es" lang="es" data-legal-lang="es">Español</a><a href="?lang=ru" hreflang="ru" lang="ru" data-legal-lang="ru">Русский</a><a href="?lang=hi" hreflang="hi" lang="hi" data-legal-lang="hi">हिन्दी</a><a href="?lang=bn" hreflang="bn" lang="bn" data-legal-lang="bn">বাংলা</a><a href="?lang=ur" hreflang="ur" lang="ur" data-legal-lang="ur">اردو</a></nav>
+          <article data-lang-block="tr" lang="tr" dir="ltr" data-title="Gizlilik Politikası">
+            <p class="updated">Son güncelleme: 25 Ekim 2026</p>
+            <p>Bu politika, uygulamayı kullanırken hangi bilgilerin işlendiğini açıklar. Metinde "biz", uygulamanın geliştiricisini ifade eder (App Store'da uygulamanın satıcısı olarak görünen kişi).</p>
+            <h2>Kısaca</h2>
+            <ul><li>Uygulamada hesap yoktur. Adınızı, e-posta adresinizi ya da telefon numaranızı istemeyiz.</li><li>Tercihleriniz, ilerlemeniz, beğendikleriniz, indirdikleriniz ve yazdıklarınız cihazınızda kalır.</li><li>Uygulamayı geliştirmek için yalnızca kimliğinizle ilişkilendirilmeyen kullanım istatistiklerine ve hata raporlarına bakarız.</li></ul>
+            <h2>Cihazınızda kalanlar</h2>
+            <p>Tercihleriniz, ilerlemeniz, beğendikleriniz, indirdiğiniz içerikler ve uygulamada yazdıklarınız (örneğin dualarınız) cihazınızda saklanır. Bir özellik aksini açıkça belirtmedikçe bunlar bize gönderilmez. Uygulamayı sildiğinizde bu bilgiler de silinir.</p>
+            <h2>Kullanım istatistikleri ve hata raporları</h2>
+            <p>Uygulamanın nasıl kullanıldığını anlamak ve hataları düzeltmek için, hangi ekranların açıldığı ve hangi özelliklerin kullanıldığı gibi kullanım olayları ile hata raporları toplanır. Bunlarla birlikte cihaz modeli, işletim sistemi, uygulama sürümü, dil, rastgele bir uygulama kimliği ve IP adresinden çıkarılan yaklaşık konum (ülke ya da şehir) işlenir. Bu bilgiler adınızla ya da kimliğinizle ilişkilendirilmez.</p>
+            <h2>Satın almalar</h2>
+            <p>Abonelikler App Store üzerinden alınır. Ödemeyi Apple işler; ödeme bilgilerinizi görmeyiz. Aboneliğin etkin olup olmadığını denetlemek ve satın almaları geri yüklemek için abonelik durumunuz ve App Store satın alma geçmişiniz rastgele bir kimlikle işlenir.</p>
+            <h2>Ortak sayılar ve internetten yüklenen içerik</h2>
+            <p>Bazı özellikler herkesin gördüğü ortak sayılar gösterir; bunlara katkınız kimliğinizle ilişkilendirilmeden, yalnızca sayı olarak eklenir. Sesler gibi içerikler internetten yüklenirken, her internet isteğinde olduğu gibi IP adresiniz işlenir.</p>
+            <h2>Bize yazdığınızda</h2>
+            <p>Bize e-postayla yazdığınızda e-posta adresiniz ve mesajınız size yanıt vermek için kullanılır. Hata bildirimlerine uygulama sürümü ve cihaz modeli gibi teknik bilgiler eklenebilir; bunları göndermeden önce görebilirsiniz.</p>
+            <h2>Hizmet sağlayıcılar</h2>
+            <p>Bu işlemler için analiz, hata raporlama, abonelik yönetimi ve içerik dağıtımı alanlarında hizmet sağlayıcılarla çalışırız. Sağlayıcıların sunucuları Türkiye dışında bulunabilir; bilgiler yürürlükteki mevzuata uygun olarak bu ülkelere aktarılabilir.</p>
+            <h2>Amaç, dayanak ve süre</h2>
+            <p>Bu bilgiler uygulamayı sunmak, aboneliği yönetmek, uygulamayı geliştirmek ve hataları düzeltmek için işlenir. Dayanağı; uygulamanın size sunulması, uygulamanın iyi ve güvenli çalışmasına yönelik meşru menfaatimiz ve gerektiğinde yasal yükümlülüklerdir. Bilgiler yalnızca bu amaçlar için gereken süre boyunca tutulur; ardından silinir ya da anonim hale getirilir.</p>
+            <h2>Çocuklar</h2>
+            <p>Uygulama çocuklara özel olarak tasarlanmamıştır. 13 yaşından küçük çocuklardan bilerek kişisel bilgi toplamayız.</p>
+            <h2>Haklarınız</h2>
+            <p>Bulunduğunuz yerdeki mevzuat (örneğin KVKK ya da GDPR) kapsamında bilgi isteme, silme ya da itiraz etme gibi haklarınız için bize yazabilirsiniz.</p>
+            <p>Hesap olmadığından ve bilgiler kimliğinizle ilişkilendirilmediğinden, talebinizi yerine getirebilmek için ek bilgi isteyebiliriz. Uygulamayı silip yeniden yüklemek, rastgele kimlikleri sıfırlar.</p>
+            <h2>Değişiklikler</h2>
+            <p>Bu politikayı zaman zaman güncelleyebiliriz. Güncel hali bu sayfada yayımlanır; üstteki tarih son değişikliği gösterir.</p>
+            <h2>İletişim</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="en" lang="en" dir="ltr" data-title="Privacy Policy" hidden>
+            <p class="updated">Last updated: 25 October 2026</p>
+            <p>This policy explains what information is processed when you use the app. "We" refers to the app's developer (the person shown as the app's seller on the App Store).</p>
+            <h2>In short</h2>
+            <ul><li>The app has no accounts. We don't ask for your name, email address or phone number.</li><li>Your preferences, progress, likes, downloads and anything you write stay on your device.</li><li>To improve the app, we only look at usage statistics and error reports that are not linked to your identity.</li></ul>
+            <h2>What stays on your device</h2>
+            <p>Your preferences, progress, likes, downloaded content and anything you write in the app (such as your prayers) are stored on your device. Unless a feature clearly says otherwise, they are not sent to us. Deleting the app deletes them too.</p>
+            <h2>Usage statistics and error reports</h2>
+            <p>To understand how the app is used and to fix errors, usage events (such as which screens are opened and which features are used) and error reports are collected. Along with them, your device model, operating system, app version, language, a random app identifier and an approximate location derived from your IP address (country or city) are processed. This information is not linked to your name or identity.</p>
+            <h2>Purchases</h2>
+            <p>Subscriptions are bought through the App Store. Apple handles the payment; we don't see your payment details. To check whether your subscription is active and to restore purchases, your subscription status and App Store purchase history are processed with a random identifier.</p>
+            <h2>Shared counts and content from the internet</h2>
+            <p>Some features show counts that everyone sees; your contribution is added only as a number, without being linked to your identity. When content such as audio is loaded from the internet, your IP address is processed, as with any internet request.</p>
+            <h2>When you write to us</h2>
+            <p>When you email us, your email address and message are used to reply to you. Error reports may include technical details such as the app version and device model; you can see them before sending.</p>
+            <h2>Service providers</h2>
+            <p>For these purposes we work with service providers for analytics, error reporting, subscription management and content delivery. Their servers may be located outside Türkiye, so information may be transferred to other countries in line with applicable data protection law.</p>
+            <h2>Purpose, legal basis and retention</h2>
+            <p>This information is processed to provide the app, manage subscriptions, improve the app and fix errors. It is based on providing the app to you, our legitimate interest in keeping the app working well and securely and, where required, legal obligations. It is kept only as long as these purposes need, and is then deleted or anonymised.</p>
+            <h2>Children</h2>
+            <p>The app is not designed specifically for children. We do not knowingly collect personal information from children under 13.</p>
+            <h2>Your rights</h2>
+            <p>Depending on where you live (for example under KVKK in Türkiye or the GDPR in the European Union), you may have rights such as requesting information, asking for deletion or objecting to processing. You can write to us to exercise them.</p>
+            <p>Because the app has no accounts and information is not linked to your identity, we may ask for additional details to fulfil your request. Deleting and reinstalling the app resets the random identifiers.</p>
+            <h2>Changes</h2>
+            <p>We may update this policy from time to time. The current version is published on this page; the date at the top shows the latest change.</p>
+            <h2>Contact</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="ar" lang="ar" dir="rtl" data-title="سياسة الخصوصية" hidden>
+            <p class="updated">آخر تحديث: ٢٥ أكتوبر ٢٠٢٦</p>
+            <p>توضح هذه السياسة المعلومات التي تُعالَج عند استخدامك للتطبيق. ويُقصد بكلمة "نحن" مطوّر التطبيق (الشخص الذي يظهر بصفته بائع التطبيق في App Store).</p>
+            <h2>باختصار</h2>
+            <ul><li>لا يتضمن التطبيق أي حسابات. ولا نطلب منك اسمك أو عنوان بريدك الإلكتروني أو رقم هاتفك.</li><li>تبقى تفضيلاتك وتقدّمك وإعجاباتك وتنزيلاتك وكل ما تكتبه على جهازك.</li><li>لتحسين التطبيق، لا نطّلع إلا على إحصاءات الاستخدام وتقارير الأخطاء التي لا ترتبط بهويتك.</li></ul>
+            <h2>ما يبقى على جهازك</h2>
+            <p>تُحفظ على جهازك تفضيلاتك وتقدّمك وإعجاباتك والمحتوى الذي نزّلته وكل ما تكتبه في التطبيق (مثل أدعيتك). ولا يُرسَل شيء من ذلك إلينا ما لم توضّح إحدى الميزات صراحةً خلاف ذلك. وعند حذف التطبيق يُحذف ذلك كله أيضًا.</p>
+            <h2>إحصاءات الاستخدام وتقارير الأخطاء</h2>
+            <p>لفهم كيفية استخدام التطبيق ولإصلاح الأخطاء، تُجمع أحداث الاستخدام (مثل الشاشات التي تُفتح والميزات التي تُستخدم) وتقارير الأخطاء. ويُعالَج معها طراز جهازك ونظام التشغيل وإصدار التطبيق واللغة ومعرّف عشوائي خاص بالتطبيق وموقع تقريبي مستنتج من عنوان IP الخاص بك (البلد أو المدينة). ولا تُربط هذه المعلومات باسمك أو بهويتك.</p>
+            <h2>المشتريات</h2>
+            <p>تُشترى الاشتراكات عبر App Store. وتتولى Apple عملية الدفع، فلا نطّلع على بيانات الدفع الخاصة بك. وللتحقق مما إذا كان اشتراكك فعّالًا ولاستعادة المشتريات، تُعالَج حالة اشتراكك وسجل مشترياتك في App Store باستخدام معرّف عشوائي.</p>
+            <h2>الأعداد المشتركة والمحتوى المحمَّل من الإنترنت</h2>
+            <p>تعرض بعض الميزات أعدادًا يراها الجميع، وتُضاف مساهمتك فيها رقمًا فقط، دون أن تُربط بهويتك. وعند تحميل محتوى من الإنترنت، كالمقاطع الصوتية، يُعالَج عنوان IP الخاص بك، كما هو الحال في أي طلب عبر الإنترنت.</p>
+            <h2>عندما تراسلنا</h2>
+            <p>عندما تراسلنا عبر البريد الإلكتروني، يُستخدم عنوان بريدك الإلكتروني ورسالتك للرد عليك. وقد تتضمن بلاغات الأخطاء تفاصيل تقنية مثل إصدار التطبيق وطراز الجهاز، ويمكنك الاطلاع عليها قبل الإرسال.</p>
+            <h2>مزوّدو الخدمات</h2>
+            <p>لهذه الأغراض نتعامل مع مزوّدي خدمات في مجالات التحليلات وتقارير الأخطاء وإدارة الاشتراكات وتوصيل المحتوى. وقد تقع خوادمهم خارج تركيا، ولذا قد تُنقل المعلومات إلى بلدان أخرى وفقًا لقوانين حماية البيانات المعمول بها.</p>
+            <h2>الغرض والأساس القانوني ومدة الاحتفاظ</h2>
+            <p>تُعالَج هذه المعلومات لتقديم التطبيق وإدارة الاشتراكات وتحسين التطبيق وإصلاح الأخطاء. وتستند معالجتها إلى تقديم التطبيق لك، وإلى مصلحتنا المشروعة في أن يعمل التطبيق على نحو جيد وآمن، وإلى الالتزامات القانونية عند الاقتضاء. ولا يُحتفظ بها إلا طوال المدة التي تقتضيها هذه الأغراض، ثم تُحذف أو تُجعل مجهولة الهوية.</p>
+            <h2>الأطفال</h2>
+            <p>لم يُصمَّم التطبيق خصيصًا للأطفال. ولا نجمع عن علم معلومات شخصية من الأطفال دون سن ١٣ عامًا.</p>
+            <h2>حقوقك</h2>
+            <p>بحسب مكان إقامتك (مثلًا بموجب قانون KVKK في تركيا أو اللائحة العامة لحماية البيانات GDPR في الاتحاد الأوروبي)، قد تكون لك حقوق مثل طلب المعلومات أو طلب الحذف أو الاعتراض على المعالجة. ويمكنك مراسلتنا لممارسة هذه الحقوق.</p>
+            <p>ولأن التطبيق لا يتضمن حسابات ولا تُربط المعلومات بهويتك، فقد نطلب منك تفاصيل إضافية لتلبية طلبك. ويؤدي حذف التطبيق وإعادة تثبيته إلى إعادة تعيين المعرّفات العشوائية.</p>
+            <h2>التغييرات</h2>
+            <p>قد نحدّث هذه السياسة من وقت لآخر. وتُنشر النسخة الحالية في هذه الصفحة، ويشير التاريخ في الأعلى إلى آخر تغيير.</p>
+            <h2>التواصل</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="id" lang="id" dir="ltr" data-title="Kebijakan Privasi" hidden>
+            <p class="updated">Terakhir diperbarui: 25 Oktober 2026</p>
+            <p>Kebijakan ini menjelaskan informasi apa saja yang diproses saat Anda menggunakan aplikasi. "Kami" berarti pengembang aplikasi (orang yang tercantum sebagai penjual aplikasi di App Store).</p>
+            <h2>Ringkasnya</h2>
+            <ul><li>Aplikasi ini tidak memiliki akun. Kami tidak meminta nama, alamat email, atau nomor telepon Anda.</li><li>Preferensi, kemajuan, konten yang Anda sukai, unduhan, dan apa pun yang Anda tulis tetap berada di perangkat Anda.</li><li>Untuk menyempurnakan aplikasi, kami hanya melihat statistik penggunaan dan laporan kesalahan yang tidak dikaitkan dengan identitas Anda.</li></ul>
+            <h2>Yang tetap berada di perangkat Anda</h2>
+            <p>Preferensi, kemajuan, konten yang Anda sukai dan unduh, serta apa pun yang Anda tulis di aplikasi (misalnya doa Anda) disimpan di perangkat Anda. Kecuali jika suatu fitur dengan jelas menyatakan sebaliknya, semua itu tidak dikirimkan kepada kami. Saat aplikasi dihapus, semua itu juga ikut terhapus.</p>
+            <h2>Statistik penggunaan dan laporan kesalahan</h2>
+            <p>Untuk memahami cara aplikasi digunakan dan untuk memperbaiki kesalahan, peristiwa penggunaan (misalnya layar mana yang dibuka dan fitur mana yang digunakan) serta laporan kesalahan dikumpulkan. Bersamaan dengan itu, model perangkat, sistem operasi, versi aplikasi, bahasa, sebuah pengenal aplikasi acak, dan perkiraan lokasi yang diperoleh dari alamat IP Anda (negara atau kota) juga diproses. Informasi ini tidak dikaitkan dengan nama atau identitas Anda.</p>
+            <h2>Pembelian</h2>
+            <p>Langganan dibeli melalui App Store. Pembayaran ditangani oleh Apple; kami tidak melihat detail pembayaran Anda. Untuk memeriksa apakah langganan Anda aktif dan untuk memulihkan pembelian, status langganan dan riwayat pembelian App Store Anda diproses dengan sebuah pengenal acak.</p>
+            <h2>Jumlah bersama dan konten dari internet</h2>
+            <p>Beberapa fitur menampilkan jumlah yang dapat dilihat semua orang; kontribusi Anda hanya ditambahkan sebagai angka, tanpa dikaitkan dengan identitas Anda. Saat konten seperti audio dimuat dari internet, alamat IP Anda diproses, sama seperti pada setiap permintaan internet.</p>
+            <h2>Saat Anda menghubungi kami</h2>
+            <p>Saat Anda mengirim email kepada kami, alamat email dan pesan Anda digunakan untuk membalas Anda. Laporan masalah dapat menyertakan detail teknis seperti versi aplikasi dan model perangkat; Anda dapat melihatnya sebelum mengirimkannya.</p>
+            <h2>Penyedia layanan</h2>
+            <p>Untuk keperluan ini, kami bekerja sama dengan penyedia layanan di bidang analitik, pelaporan kesalahan, pengelolaan langganan, dan pengiriman konten. Server mereka mungkin berada di luar Turki, sehingga informasi dapat ditransfer ke negara lain sesuai dengan hukum pelindungan data yang berlaku.</p>
+            <h2>Tujuan, dasar hukum, dan masa penyimpanan</h2>
+            <p>Informasi ini diproses untuk menyediakan aplikasi, mengelola langganan, menyempurnakan aplikasi, dan memperbaiki kesalahan. Dasar pemrosesannya adalah penyediaan aplikasi kepada Anda, kepentingan sah kami dalam menjaga aplikasi tetap berjalan dengan baik dan aman, serta kewajiban hukum bila diperlukan. Informasi hanya disimpan selama diperlukan untuk tujuan tersebut, lalu dihapus atau dianonimkan.</p>
+            <h2>Anak‑anak</h2>
+            <p>Aplikasi ini tidak dirancang khusus untuk anak‑anak. Kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak‑anak di bawah usia 13 tahun.</p>
+            <h2>Hak Anda</h2>
+            <p>Bergantung pada tempat tinggal Anda (misalnya berdasarkan KVKK di Turki atau GDPR di Uni Eropa), Anda mungkin memiliki hak seperti meminta informasi, meminta penghapusan, atau mengajukan keberatan atas pemrosesan. Anda dapat menghubungi kami untuk menggunakan hak tersebut.</p>
+            <p>Karena aplikasi ini tidak memiliki akun dan informasi tidak dikaitkan dengan identitas Anda, kami mungkin meminta detail tambahan untuk memenuhi permintaan Anda. Menghapus lalu memasang ulang aplikasi akan mengatur ulang pengenal acak.</p>
+            <h2>Perubahan</h2>
+            <p>Kami dapat memperbarui kebijakan ini dari waktu ke waktu. Versi terbaru dipublikasikan di halaman ini; tanggal di bagian atas menunjukkan perubahan terakhir.</p>
+            <h2>Kontak</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="ms" lang="ms" dir="ltr" data-title="Dasar Privasi" hidden>
+            <p class="updated">Kemas kini terakhir: 25 Oktober 2026</p>
+            <p>Dasar ini menerangkan maklumat yang diproses semasa anda menggunakan aplikasi. "Kami" merujuk kepada pembangun aplikasi (individu yang dinyatakan sebagai penjual aplikasi di App Store).</p>
+            <h2>Ringkasnya</h2>
+            <ul><li>Aplikasi ini tidak mempunyai akaun. Kami tidak meminta nama, alamat e‑mel atau nombor telefon anda.</li><li>Pilihan, kemajuan, kegemaran, muat turun dan apa‑apa yang anda tulis kekal pada peranti anda.</li><li>Untuk menambah baik aplikasi, kami hanya melihat statistik penggunaan dan laporan ralat yang tidak dikaitkan dengan identiti anda.</li></ul>
+            <h2>Perkara yang kekal pada peranti anda</h2>
+            <p>Pilihan, kemajuan dan kegemaran anda, kandungan yang anda muat turun serta apa‑apa yang anda tulis dalam aplikasi (seperti doa anda) disimpan pada peranti anda. Melainkan sesuatu ciri menyatakan sebaliknya dengan jelas, semua ini tidak dihantar kepada kami. Apabila aplikasi dipadam, semua ini turut dipadam.</p>
+            <h2>Statistik penggunaan dan laporan ralat</h2>
+            <p>Untuk memahami cara aplikasi digunakan dan untuk membaiki ralat, peristiwa penggunaan (seperti skrin yang dibuka dan ciri yang digunakan) serta laporan ralat dikumpulkan. Bersama‑sama itu, model peranti anda, sistem pengendalian, versi aplikasi, bahasa, satu pengecam aplikasi rawak dan anggaran lokasi yang diperoleh daripada alamat IP anda (negara atau bandar) turut diproses. Maklumat ini tidak dikaitkan dengan nama atau identiti anda.</p>
+            <h2>Pembelian</h2>
+            <p>Langganan dibeli melalui App Store. Pembayaran dikendalikan oleh Apple; kami tidak melihat butiran pembayaran anda. Untuk menyemak sama ada langganan anda aktif dan untuk memulihkan pembelian, status langganan dan sejarah pembelian App Store anda diproses dengan satu pengecam rawak.</p>
+            <h2>Kiraan bersama dan kandungan dari internet</h2>
+            <p>Sesetengah ciri memaparkan kiraan yang dilihat oleh semua orang; sumbangan anda ditambah sebagai nombor sahaja, tanpa dikaitkan dengan identiti anda. Apabila kandungan seperti audio dimuatkan dari internet, alamat IP anda diproses, sama seperti setiap permintaan internet.</p>
+            <h2>Apabila anda menghubungi kami</h2>
+            <p>Apabila anda menghantar e‑mel kepada kami, alamat e‑mel dan mesej anda digunakan untuk membalas anda. Laporan masalah mungkin menyertakan butiran teknikal seperti versi aplikasi dan model peranti; anda boleh melihatnya sebelum menghantar.</p>
+            <h2>Penyedia perkhidmatan</h2>
+            <p>Bagi tujuan ini, kami bekerjasama dengan penyedia perkhidmatan untuk analitik, pelaporan ralat, pengurusan langganan dan penghantaran kandungan. Pelayan mereka mungkin terletak di luar Turkiye, jadi maklumat mungkin dipindahkan ke negara lain selaras dengan undang‑undang perlindungan data yang terpakai.</p>
+            <h2>Tujuan, asas undang‑undang dan tempoh simpanan</h2>
+            <p>Maklumat ini diproses untuk menyediakan aplikasi, mengurus langganan, menambah baik aplikasi dan membaiki ralat. Asasnya ialah penyediaan aplikasi kepada anda, kepentingan sah kami untuk memastikan aplikasi berfungsi dengan baik serta selamat, dan kewajipan undang‑undang jika diperlukan. Maklumat disimpan hanya selama yang diperlukan bagi tujuan ini, kemudian dipadam atau dijadikan tanpa nama.</p>
+            <h2>Kanak‑kanak</h2>
+            <p>Aplikasi ini tidak direka khusus untuk kanak‑kanak. Kami tidak dengan sengaja mengumpul maklumat peribadi daripada kanak‑kanak di bawah umur 13 tahun.</p>
+            <h2>Hak anda</h2>
+            <p>Bergantung pada tempat anda tinggal (contohnya di bawah KVKK di Turkiye atau GDPR di Kesatuan Eropah), anda mungkin mempunyai hak seperti meminta maklumat, meminta pemadaman atau membantah pemprosesan. Anda boleh menghubungi kami untuk menggunakan hak tersebut.</p>
+            <p>Oleh sebab aplikasi ini tidak mempunyai akaun dan maklumat tidak dikaitkan dengan identiti anda, kami mungkin meminta butiran tambahan untuk memenuhi permintaan anda. Memadam dan memasang semula aplikasi akan menetapkan semula pengecam rawak.</p>
+            <h2>Perubahan</h2>
+            <p>Kami mungkin mengemas kini dasar ini dari semasa ke semasa. Versi terkini diterbitkan di halaman ini; tarikh di bahagian atas menunjukkan perubahan terakhir.</p>
+            <h2>Hubungi</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="fr" lang="fr" dir="ltr" data-title="Politique de confidentialité" hidden>
+            <p class="updated">Dernière mise à jour : 25 octobre 2026</p>
+            <p>Cette politique explique quelles informations sont traitées lorsque vous utilisez l’application. Dans ce texte, « nous » désigne le développeur de l’application (la personne indiquée comme vendeur de l’application sur l’App Store).</p>
+            <h2>En bref</h2>
+            <ul><li>L’application ne comporte pas de compte utilisateur. Nous ne vous demandons ni votre nom, ni votre adresse e‑mail, ni votre numéro de téléphone.</li><li>Vos préférences, votre progression, ce que vous avez aimé, vos téléchargements et tout ce que vous écrivez restent sur votre appareil.</li><li>Pour améliorer l’application, nous consultons uniquement des statistiques d’utilisation et des rapports d’erreur qui ne sont pas liés à votre identité.</li></ul>
+            <h2>Ce qui reste sur votre appareil</h2>
+            <p>Vos préférences, votre progression, ce que vous avez aimé, les contenus téléchargés et tout ce que vous écrivez dans l’application (par exemple vos invocations) sont enregistrés sur votre appareil. Sauf mention contraire explicite d’une fonctionnalité, ils ne nous sont pas envoyés. Supprimer l’application les supprime également.</p>
+            <h2>Statistiques d’utilisation et rapports d’erreur</h2>
+            <p>Pour comprendre comment l’application est utilisée et corriger les erreurs, des événements d’utilisation (par exemple les écrans ouverts et les fonctionnalités utilisées) et des rapports d’erreur sont collectés. Sont traités en même temps le modèle de votre appareil, le système d’exploitation, la version de l’application, la langue, un identifiant d’application aléatoire et une localisation approximative déduite de votre adresse IP (pays ou ville). Ces informations ne sont liées ni à votre nom ni à votre identité.</p>
+            <h2>Achats</h2>
+            <p>Les abonnements s’achètent sur l’App Store. Apple gère le paiement ; nous ne voyons pas vos données de paiement. Pour vérifier si votre abonnement est actif et pour restaurer vos achats, le statut de votre abonnement et votre historique d’achats sur l’App Store sont traités sous un identifiant aléatoire.</p>
+            <h2>Compteurs communs et contenus chargés depuis Internet</h2>
+            <p>Certaines fonctionnalités affichent des compteurs visibles par tous ; votre contribution n’y est ajoutée que sous forme de nombre, sans être liée à votre identité. Lorsque des contenus comme l’audio sont chargés depuis Internet, votre adresse IP est traitée, comme lors de toute requête sur Internet.</p>
+            <h2>Lorsque vous nous écrivez</h2>
+            <p>Lorsque vous nous envoyez un e‑mail, votre adresse e‑mail et votre message servent à vous répondre. Les signalements de problème peuvent inclure des informations techniques, comme la version de l’application et le modèle de l’appareil ; vous pouvez les voir avant l’envoi.</p>
+            <h2>Prestataires de services</h2>
+            <p>Pour ces traitements, nous faisons appel à des prestataires de services d’analyse, de signalement d’erreurs, de gestion des abonnements et de diffusion de contenus. Leurs serveurs peuvent se trouver hors de Turquie ; les informations peuvent donc être transférées vers d’autres pays, conformément à la législation applicable en matière de protection des données.</p>
+            <h2>Finalités, base légale et durée de conservation</h2>
+            <p>Ces informations sont traitées pour fournir l’application, gérer les abonnements, améliorer l’application et corriger les erreurs. Ce traitement repose sur la nécessité de vous fournir l’application, sur notre intérêt légitime à ce qu’elle fonctionne bien et en toute sécurité et, le cas échéant, sur des obligations légales. Les informations ne sont conservées que le temps nécessaire à ces finalités, puis elles sont supprimées ou anonymisées.</p>
+            <h2>Enfants</h2>
+            <p>L’application n’est pas spécialement conçue pour les enfants. Nous ne collectons pas sciemment d’informations personnelles concernant des enfants de moins de 13 ans.</p>
+            <h2>Vos droits</h2>
+            <p>Selon l’endroit où vous vivez (par exemple en vertu de la loi KVKK en Turquie ou du RGPD dans l’Union européenne), vous pouvez disposer de droits tels que demander des informations, demander l’effacement de vos données ou vous opposer à leur traitement. Vous pouvez nous écrire pour les exercer.</p>
+            <p>Comme l’application ne comporte pas de compte et que les informations ne sont pas liées à votre identité, nous pouvons vous demander des précisions supplémentaires pour donner suite à votre demande. Supprimer puis réinstaller l’application réinitialise les identifiants aléatoires.</p>
+            <h2>Modifications</h2>
+            <p>Nous pouvons mettre à jour cette politique de temps à autre. La version en vigueur est publiée sur cette page ; la date indiquée en haut correspond à la dernière modification.</p>
+            <h2>Contact</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="de" lang="de" dir="ltr" data-title="Datenschutzerklärung" hidden>
+            <p class="updated">Zuletzt aktualisiert: 25. Oktober 2026</p>
+            <p>Diese Erklärung beschreibt, welche Informationen verarbeitet werden, wenn du die App nutzt. In diesem Text bezeichnet „wir“ den Entwickler der App (die Person, die im App Store als Anbieter der App angegeben ist).</p>
+            <h2>Kurz gesagt</h2>
+            <ul><li>Die App hat keine Benutzerkonten. Wir fragen nicht nach deinem Namen, deiner E‑Mail-Adresse oder deiner Telefonnummer.</li><li>Deine Einstellungen, dein Fortschritt, deine Likes, deine Downloads und alles, was du schreibst, bleiben auf deinem Gerät.</li><li>Um die App zu verbessern, sehen wir uns nur Nutzungsstatistiken und Fehlerberichte an, die nicht mit deiner Identität verknüpft sind.</li></ul>
+            <h2>Was auf deinem Gerät bleibt</h2>
+            <p>Deine Einstellungen, dein Fortschritt, deine Likes, heruntergeladene Inhalte und alles, was du in der App schreibst (zum Beispiel deine Bittgebete), werden auf deinem Gerät gespeichert. Sofern eine Funktion nicht ausdrücklich etwas anderes angibt, werden sie nicht an uns gesendet. Wenn du die App löschst, werden auch diese Daten gelöscht.</p>
+            <h2>Nutzungsstatistiken und Fehlerberichte</h2>
+            <p>Um zu verstehen, wie die App genutzt wird, und um Fehler zu beheben, werden Nutzungsereignisse (etwa welche Bildschirme geöffnet und welche Funktionen genutzt werden) und Fehlerberichte erhoben. Zusammen damit werden dein Gerätemodell, das Betriebssystem, die App-Version, die Sprache, eine zufällige App-Kennung und ein aus deiner IP-Adresse abgeleiteter ungefährer Standort (Land oder Stadt) verarbeitet. Diese Informationen werden nicht mit deinem Namen oder deiner Identität verknüpft.</p>
+            <h2>Käufe</h2>
+            <p>Abonnements werden über den App Store abgeschlossen. Apple wickelt die Zahlung ab; deine Zahlungsdaten sehen wir nicht. Um zu prüfen, ob dein Abonnement aktiv ist, und um Käufe wiederherzustellen, werden dein Abo-Status und dein App-Store-Kaufverlauf unter einer zufälligen Kennung verarbeitet.</p>
+            <h2>Gemeinsame Zähler und Inhalte aus dem Internet</h2>
+            <p>Einige Funktionen zeigen Zähler, die alle sehen; dein Beitrag wird nur als Zahl hinzugefügt, ohne mit deiner Identität verknüpft zu werden. Wenn Inhalte wie Audiodateien aus dem Internet geladen werden, wird wie bei jeder Internetanfrage deine IP-Adresse verarbeitet.</p>
+            <h2>Wenn du uns schreibst</h2>
+            <p>Wenn du uns eine E‑Mail schreibst, werden deine E‑Mail-Adresse und deine Nachricht verwendet, um dir zu antworten. Fehlermeldungen können technische Angaben wie die App-Version und das Gerätemodell enthalten; du kannst sie vor dem Senden sehen.</p>
+            <h2>Dienstleister</h2>
+            <p>Für diese Zwecke arbeiten wir mit Dienstleistern für Analyse, Fehlerberichte, Abo-Verwaltung und Inhaltsbereitstellung zusammen. Ihre Server können sich außerhalb der Türkei befinden; daher können Informationen im Einklang mit dem geltenden Datenschutzrecht in andere Länder übermittelt werden.</p>
+            <h2>Zweck, Rechtsgrundlage und Speicherdauer</h2>
+            <p>Diese Informationen werden verarbeitet, um die App bereitzustellen, Abonnements zu verwalten, die App zu verbessern und Fehler zu beheben. Rechtsgrundlage sind die Bereitstellung der App für dich, unser berechtigtes Interesse an einem guten und sicheren Betrieb der App und, soweit erforderlich, gesetzliche Pflichten. Die Informationen werden nur so lange aufbewahrt, wie es diese Zwecke erfordern, und danach gelöscht oder anonymisiert.</p>
+            <h2>Kinder</h2>
+            <p>Die App ist nicht speziell für Kinder gestaltet. Wir erheben nicht wissentlich personenbezogene Daten von Kindern unter 13 Jahren.</p>
+            <h2>Deine Rechte</h2>
+            <p>Je nachdem, wo du lebst (zum Beispiel nach dem KVKK in der Türkei oder der DSGVO in der Europäischen Union), hast du möglicherweise Rechte wie das Recht, Auskunft zu verlangen, die Löschung zu beantragen oder der Verarbeitung zu widersprechen. Du kannst uns schreiben, um sie auszuüben.</p>
+            <p>Da die App keine Benutzerkonten hat und die Informationen nicht mit deiner Identität verknüpft sind, können wir zusätzliche Angaben anfordern, um deine Anfrage zu bearbeiten. Wenn du die App löschst und neu installierst, werden die zufälligen Kennungen zurückgesetzt.</p>
+            <h2>Änderungen</h2>
+            <p>Wir können diese Erklärung von Zeit zu Zeit aktualisieren. Die aktuelle Fassung wird auf dieser Seite veröffentlicht; das Datum oben zeigt die letzte Änderung.</p>
+            <h2>Kontakt</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="es" lang="es" dir="ltr" data-title="Política de privacidad" hidden>
+            <p class="updated">Última actualización: 25 de octubre de 2026</p>
+            <p>Esta política explica qué información se trata cuando usas la app. En este texto, “nosotros” se refiere al desarrollador de la app (la persona que aparece como vendedor de la app en el App Store).</p>
+            <h2>En resumen</h2>
+            <ul><li>La app no tiene cuentas de usuario. No te pedimos tu nombre, tu correo electrónico ni tu número de teléfono.</li><li>Tus preferencias, tu progreso, tus “me gusta”, tus descargas y todo lo que escribes se quedan en tu dispositivo.</li><li>Para mejorar la app, solo revisamos estadísticas de uso e informes de errores que no están vinculados a tu identidad.</li></ul>
+            <h2>Lo que se queda en tu dispositivo</h2>
+            <p>Tus preferencias, tu progreso, tus “me gusta”, el contenido que descargas y todo lo que escribes en la app (por ejemplo, tus súplicas) se guardan en tu dispositivo. A menos que una función indique claramente lo contrario, no se nos envían. Si borras la app, también se borran.</p>
+            <h2>Estadísticas de uso e informes de errores</h2>
+            <p>Para entender cómo se usa la app y corregir errores, se recopilan eventos de uso (por ejemplo, qué pantallas se abren y qué funciones se usan) e informes de errores. Junto con ellos se tratan el modelo de tu dispositivo, el sistema operativo, la versión de la app, el idioma, un identificador aleatorio de la app y una ubicación aproximada obtenida de tu dirección IP (país o ciudad). Esta información no está vinculada a tu nombre ni a tu identidad.</p>
+            <h2>Compras</h2>
+            <p>Las suscripciones se compran a través del App Store. Apple gestiona el pago; no vemos tus datos de pago. Para comprobar si tu suscripción está activa y para restaurar compras, tu estado de suscripción y tu historial de compras del App Store se tratan con un identificador aleatorio.</p>
+            <h2>Contadores comunes y contenido de internet</h2>
+            <p>Algunas funciones muestran contadores que todos ven; tu aporte se suma solo como un número, sin vincularse a tu identidad. Cuando se carga contenido de internet, como el audio, se trata tu dirección IP, como ocurre con cualquier solicitud en internet.</p>
+            <h2>Cuando nos escribes</h2>
+            <p>Cuando nos envías un correo, tu dirección de correo y tu mensaje se usan para responderte. Los reportes de problemas pueden incluir datos técnicos, como la versión de la app y el modelo del dispositivo; puedes verlos antes de enviarlos.</p>
+            <h2>Proveedores de servicios</h2>
+            <p>Para estos fines trabajamos con proveedores de servicios de análisis, informes de errores, gestión de suscripciones y distribución de contenido. Sus servidores pueden estar fuera de Turquía, por lo que la información puede transferirse a otros países de acuerdo con la legislación de protección de datos aplicable.</p>
+            <h2>Finalidad, base legal y conservación</h2>
+            <p>Esta información se trata para ofrecer la app, gestionar las suscripciones, mejorar la app y corregir errores. El tratamiento se basa en la necesidad de ofrecerte la app, en nuestro interés legítimo en que la app funcione bien y de forma segura y, cuando corresponda, en obligaciones legales. La información se conserva solo durante el tiempo que requieren estos fines y luego se elimina o se anonimiza.</p>
+            <h2>Menores</h2>
+            <p>La app no está diseñada específicamente para niños. No recopilamos a sabiendas información personal de menores de 13 años.</p>
+            <h2>Tus derechos</h2>
+            <p>Según el lugar donde vivas (por ejemplo, conforme a la ley KVKK en Turquía o al RGPD en la Unión Europea), puedes tener derechos como solicitar información, pedir la eliminación de tus datos u oponerte a su tratamiento. Puedes escribirnos para ejercerlos.</p>
+            <p>Como la app no tiene cuentas y la información no está vinculada a tu identidad, podemos pedirte datos adicionales para atender tu solicitud. Borrar y reinstalar la app restablece los identificadores aleatorios.</p>
+            <h2>Cambios</h2>
+            <p>Podemos actualizar esta política de vez en cuando. La versión vigente se publica en esta página; la fecha de arriba indica el último cambio.</p>
+            <h2>Contacto</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="ru" lang="ru" dir="ltr" data-title="Политика конфиденциальности" hidden>
+            <p class="updated">Последнее обновление: 25 октября 2026 г.</p>
+            <p>В этой политике объясняется, какая информация обрабатывается, когда вы пользуетесь приложением. В этом тексте «мы» — это разработчик приложения (лицо, указанное в App Store как продавец приложения).</p>
+            <h2>Коротко</h2>
+            <ul><li>В приложении нет учётных записей. Мы не спрашиваем ни вашего имени, ни адреса электронной почты, ни номера телефона.</li><li>Ваши настройки, прогресс, отметки «Нравится», загрузки и всё, что вы пишете, остаются на вашем устройстве.</li><li>Чтобы улучшать приложение, мы смотрим только статистику использования и отчёты об ошибках, которые не связаны с вашей личностью.</li></ul>
+            <h2>Что остаётся на вашем устройстве</h2>
+            <p>Ваши настройки, прогресс, отметки «Нравится», загруженное содержимое и всё, что вы пишете в приложении (например, ваши дуа), хранятся на вашем устройстве. Если какая-либо функция прямо не указывает иное, эти данные нам не отправляются. При удалении приложения они тоже удаляются.</p>
+            <h2>Статистика использования и отчёты об ошибках</h2>
+            <p>Чтобы понимать, как используется приложение, и исправлять ошибки, собираются события использования (например, какие экраны открываются и какие функции используются) и отчёты об ошибках. Вместе с ними обрабатываются модель вашего устройства, операционная система, версия приложения, язык, случайный идентификатор приложения и приблизительное местоположение, определённое по IP-адресу (страна или город). Эта информация не связывается с вашим именем или личностью.</p>
+            <h2>Покупки</h2>
+            <p>Подписки оформляются через App Store. Оплату обрабатывает Apple; мы не видим ваши платёжные данные. Чтобы проверять, активна ли подписка, и восстанавливать покупки, статус вашей подписки и история покупок в App Store обрабатываются под случайным идентификатором.</p>
+            <h2>Общие счётчики и содержимое из интернета</h2>
+            <p>Некоторые функции показывают счётчики, которые видят все; ваш вклад добавляется только как число и не связывается с вашей личностью. Когда из интернета загружается содержимое, например аудио, ваш IP-адрес обрабатывается, как и при любом запросе в интернете.</p>
+            <h2>Когда вы пишете нам</h2>
+            <p>Когда вы пишете нам по электронной почте, ваш адрес и сообщение используются, чтобы вам ответить. В сообщения о проблемах могут добавляться технические сведения, например версия приложения и модель устройства; вы можете увидеть их перед отправкой.</p>
+            <h2>Поставщики услуг</h2>
+            <p>Для этих целей мы работаем с поставщиками услуг в области аналитики, отчётов об ошибках, управления подписками и доставки содержимого. Их серверы могут находиться за пределами Турции, поэтому информация может передаваться в другие страны в соответствии с применимым законодательством о защите данных.</p>
+            <h2>Цели, правовые основания и сроки хранения</h2>
+            <p>Эта информация обрабатывается, чтобы предоставлять приложение, управлять подписками, улучшать приложение и исправлять ошибки. Основаниями служат предоставление вам приложения, наш законный интерес в том, чтобы приложение работало хорошо и безопасно, а также, когда это требуется, обязанности, установленные законом. Информация хранится только столько, сколько нужно для этих целей, а затем удаляется или обезличивается.</p>
+            <h2>Дети</h2>
+            <p>Приложение не предназначено специально для детей. Мы сознательно не собираем персональные данные детей младше 13 лет.</p>
+            <h2>Ваши права</h2>
+            <p>В зависимости от того, где вы живёте (например, согласно KVKK в Турции или GDPR в Европейском союзе), у вас могут быть такие права, как право запросить информацию, потребовать удаления данных или возразить против их обработки. Чтобы воспользоваться ими, напишите нам.</p>
+            <p>Поскольку в приложении нет учётных записей и информация не связана с вашей личностью, для выполнения вашего запроса мы можем попросить дополнительные сведения. Удаление и повторная установка приложения сбрасывают случайные идентификаторы.</p>
+            <h2>Изменения</h2>
+            <p>Мы можем время от времени обновлять эту политику. Актуальная версия публикуется на этой странице; дата вверху показывает последнее изменение.</p>
+            <h2>Связь</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="hi" lang="hi" dir="ltr" data-title="प्राइवेसी पॉलिसी" hidden>
+            <p class="updated">आख़िरी अपडेट: 25 अक्तूबर 2026</p>
+            <p>यह पॉलिसी बताती है कि ऐप इस्तेमाल करते वक़्त कौन सी जानकारी प्रोसेस होती है। इसमें "हम" का मतलब ऐप का डेवलपर है (वह व्यक्ति जो App Store पर ऐप के विक्रेता के तौर पर दिखाई देता है)।</p>
+            <h2>एक नज़र में</h2>
+            <ul><li>ऐप में कोई अकाउंट नहीं होता। हम आपका नाम, ईमेल पता या फ़ोन नंबर नहीं माँगते।</li><li>आपकी प्राथमिकताएँ, प्रगति, पसंद की गई चीज़ें, डाउनलोड और आपका लिखा हुआ सब कुछ आपके डिवाइस पर रहता है।</li><li>ऐप को बेहतर बनाने के लिए हम सिर्फ़ इस्तेमाल के ऐसे आँकड़े और एरर रिपोर्ट देखते हैं जो आपकी पहचान से नहीं जुड़े होते।</li></ul>
+            <h2>आपके डिवाइस पर क्या रहता है</h2>
+            <p>आपकी प्राथमिकताएँ, प्रगति, पसंद की गई चीज़ें, डाउनलोड किया गया कंटेंट और ऐप में आपका लिखा हुआ सब कुछ (जैसे आपकी दुआएँ) आपके डिवाइस पर सेव होता है। जब तक कोई फ़ीचर साफ़ तौर पर कुछ और न बताए, यह सब हमें नहीं भेजा जाता। ऐप डिलीट करने पर यह सब भी डिलीट हो जाता है।</p>
+            <h2>इस्तेमाल के आँकड़े और एरर रिपोर्ट</h2>
+            <p>ऐप कैसे इस्तेमाल होता है, यह समझने और ग़लतियाँ ठीक करने के लिए इस्तेमाल से जुड़ी गतिविधियाँ (जैसे कौन सी स्क्रीन खोली गईं और कौन से फ़ीचर इस्तेमाल हुए) और एरर रिपोर्ट जमा की जाती हैं। इनके साथ आपके डिवाइस का मॉडल, ऑपरेटिंग सिस्टम, ऐप वर्ज़न, ज़बान, ऐप का एक बेतरतीब पहचान नंबर और आपके IP पते से निकाली गई अंदाज़न जगह (देश या शहर) प्रोसेस होती है। यह जानकारी आपके नाम या पहचान से नहीं जोड़ी जाती।</p>
+            <h2>ख़रीदारी</h2>
+            <p>सब्सक्रिप्शन App Store के ज़रिए ख़रीदे जाते हैं। भुगतान Apple संभालता है; हम आपकी भुगतान जानकारी नहीं देखते। आपका सब्सक्रिप्शन चालू है या नहीं, यह जाँचने और ख़रीदारी रिस्टोर करने के लिए आपके सब्सक्रिप्शन की स्थिति और App Store पर आपकी ख़रीदारी का इतिहास एक बेतरतीब पहचान नंबर के साथ प्रोसेस किया जाता है।</p>
+            <h2>साझा गिनतियाँ और इंटरनेट से लोड होने वाला कंटेंट</h2>
+            <p>कुछ फ़ीचर ऐसी गिनतियाँ दिखाते हैं जिन्हें सब देख सकते हैं; इनमें आपका योगदान आपकी पहचान से जोड़े बिना, सिर्फ़ एक संख्या के रूप में जुड़ता है। जब ऑडियो जैसा कंटेंट इंटरनेट से लोड होता है, तो हर इंटरनेट अनुरोध की तरह आपका IP पता प्रोसेस होता है।</p>
+            <h2>जब आप हमें लिखते हैं</h2>
+            <p>जब आप हमें ईमेल करते हैं, तो आपका ईमेल पता और संदेश आपको जवाब देने के लिए इस्तेमाल होता है। ग़लती की रिपोर्ट में ऐप वर्ज़न और डिवाइस मॉडल जैसी तकनीकी जानकारी जोड़ी जा सकती है; भेजने से पहले आप इसे देख सकते हैं।</p>
+            <h2>सर्विस प्रोवाइडर</h2>
+            <p>इन कामों के लिए हम एनालिटिक्स, एरर रिपोर्टिंग, सब्सक्रिप्शन मैनेजमेंट और कंटेंट डिलीवरी के क्षेत्र में सर्विस प्रोवाइडरों के साथ काम करते हैं। उनके सर्वर तुर्की से बाहर हो सकते हैं, इसलिए जानकारी लागू डेटा संरक्षण क़ानूनों के मुताबिक़ दूसरे देशों में भेजी जा सकती है।</p>
+            <h2>मक़सद, क़ानूनी आधार और रखने की अवधि</h2>
+            <p>यह जानकारी ऐप उपलब्ध कराने, सब्सक्रिप्शन संभालने, ऐप को बेहतर बनाने और ग़लतियाँ ठीक करने के लिए प्रोसेस की जाती है। इसका आधार है: आपको ऐप उपलब्ध कराना, ऐप के ठीक और सुरक्षित ढंग से चलने में हमारा जायज़ हित, और जहाँ ज़रूरी हो, क़ानूनी ज़िम्मेदारियाँ। यह जानकारी सिर्फ़ उतने समय तक रखी जाती है जितना इन मक़सदों के लिए ज़रूरी हो; उसके बाद इसे डिलीट कर दिया जाता है या गुमनाम बना दिया जाता है।</p>
+            <h2>बच्चे</h2>
+            <p>ऐप ख़ास तौर पर बच्चों के लिए नहीं बनाया गया है। हम जान-बूझकर 13 साल से कम उम्र के बच्चों से निजी जानकारी जमा नहीं करते।</p>
+            <h2>आपके हक़</h2>
+            <p>आप जहाँ रहते हैं, उसके हिसाब से (जैसे तुर्की में KVKK या यूरोपीय संघ में GDPR के तहत) आपके पास जानकारी माँगने, डेटा डिलीट करने को कहने या प्रोसेसिंग पर एतराज़ करने जैसे हक़ हो सकते हैं। इन हक़ों का इस्तेमाल करने के लिए आप हमें लिख सकते हैं।</p>
+            <p>चूँकि ऐप में कोई अकाउंट नहीं है और जानकारी आपकी पहचान से नहीं जुड़ी होती, इसलिए आपका अनुरोध पूरा करने के लिए हम आपसे अतिरिक्त जानकारी माँग सकते हैं। ऐप डिलीट करके दोबारा इंस्टॉल करने से बेतरतीब पहचान नंबर रीसेट हो जाते हैं।</p>
+            <h2>बदलाव</h2>
+            <p>हम समय‑समय पर इस पॉलिसी को अपडेट कर सकते हैं। मौजूदा वर्ज़न इसी पेज पर प्रकाशित किया जाता है; ऊपर दी गई तारीख़ आख़िरी बदलाव बताती है।</p>
+            <h2>राब्ता</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="bn" lang="bn" dir="ltr" data-title="গোপনীয়তা নীতি" hidden>
+            <p class="updated">সর্বশেষ হালনাগাদ: ২৫ অক্টোবর ২০২৬</p>
+            <p>অ্যাপটি ব্যবহারের সময় কোন তথ্য প্রক্রিয়া করা হয়, এই নীতিতে তা ব্যাখ্যা করা হয়েছে। এখানে "আমরা" বলতে অ্যাপের ডেভেলপারকে বোঝায় (App Store-এ অ্যাপের বিক্রেতা হিসেবে যে ব্যক্তিকে দেখানো হয়)।</p>
+            <h2>সংক্ষেপে</h2>
+            <ul><li>অ্যাপে কোনো অ্যাকাউন্ট নেই। আমরা আপনার নাম, ইমেইল ঠিকানা বা ফোন নম্বর চাই না।</li><li>আপনার সেটিংস, অগ্রগতি, পছন্দ করা বিষয়বস্তু, ডাউনলোড এবং আপনি যা কিছু লেখেন, সবই আপনার ডিভাইসে থাকে।</li><li>অ্যাপটি উন্নত করতে আমরা কেবল এমন ব্যবহারের পরিসংখ্যান ও ত্রুটির রিপোর্ট দেখি, যা আপনার পরিচয়ের সাথে যুক্ত নয়।</li></ul>
+            <h2>যা আপনার ডিভাইসেই থাকে</h2>
+            <p>আপনার সেটিংস, অগ্রগতি, পছন্দ করা ও ডাউনলোড করা বিষয়বস্তু এবং অ্যাপে আপনি যা কিছু লেখেন (যেমন আপনার দোয়া), সবই আপনার ডিভাইসে সংরক্ষিত থাকে। কোনো ফিচারে স্পষ্টভাবে অন্য কিছু বলা না থাকলে এগুলো আমাদের কাছে পাঠানো হয় না। অ্যাপ মুছে ফেললে এগুলোও মুছে যায়।</p>
+            <h2>ব্যবহারের পরিসংখ্যান ও ত্রুটির রিপোর্ট</h2>
+            <p>অ্যাপটি কীভাবে ব্যবহার হয় তা বুঝতে এবং ত্রুটি ঠিক করতে ব্যবহারের ঘটনা (যেমন কোন স্ক্রিন খোলা হয় এবং কোন ফিচার ব্যবহার করা হয়) ও ত্রুটির রিপোর্ট সংগ্রহ করা হয়। এগুলোর সাথে আপনার ডিভাইসের মডেল, অপারেটিং সিস্টেম, অ্যাপের সংস্করণ, ভাষা, অ্যাপের একটি এলোমেলো শনাক্তকারী এবং আপনার IP ঠিকানা থেকে অনুমান করা আনুমানিক অবস্থান (দেশ বা শহর) প্রক্রিয়া করা হয়। এই তথ্য আপনার নাম বা পরিচয়ের সাথে যুক্ত করা হয় না।</p>
+            <h2>কেনাকাটা</h2>
+            <p>সাবস্ক্রিপশন কেনা হয় App Store-এর মাধ্যমে। পেমেন্ট Apple সামলায়; আমরা আপনার পেমেন্টের তথ্য দেখি না। আপনার সাবস্ক্রিপশন চালু আছে কি না যাচাই করতে এবং কেনাকাটা রিস্টোর করতে আপনার সাবস্ক্রিপশনের অবস্থা ও App Store-এ আপনার কেনাকাটার ইতিহাস একটি এলোমেলো শনাক্তকারী দিয়ে প্রক্রিয়া করা হয়।</p>
+            <h2>সম্মিলিত গণনা ও ইন্টারনেট থেকে লোড হওয়া বিষয়বস্তু</h2>
+            <p>কিছু ফিচারে এমন গণনা দেখানো হয়, যা সবাই দেখতে পায়; এতে আপনার অবদান আপনার পরিচয়ের সাথে যুক্ত না করে কেবল একটি সংখ্যা হিসেবে যোগ হয়। অডিওর মতো বিষয়বস্তু ইন্টারনেট থেকে লোড হওয়ার সময়, যেকোনো ইন্টারনেট অনুরোধের মতোই, আপনার IP ঠিকানা প্রক্রিয়া করা হয়।</p>
+            <h2>আপনি যখন আমাদের লেখেন</h2>
+            <p>আপনি আমাদের ইমেইল করলে আপনাকে উত্তর দেওয়ার জন্য আপনার ইমেইল ঠিকানা ও বার্তা ব্যবহার করা হয়। সমস্যার রিপোর্টে অ্যাপের সংস্করণ ও ডিভাইসের মডেলের মতো কারিগরি তথ্য যুক্ত থাকতে পারে; পাঠানোর আগে আপনি এগুলো দেখতে পারেন।</p>
+            <h2>সেবাদাতা</h2>
+            <p>এসব কাজের জন্য আমরা অ্যানালিটিক্স, ত্রুটির রিপোর্টিং, সাবস্ক্রিপশন ব্যবস্থাপনা ও বিষয়বস্তু সরবরাহের ক্ষেত্রে সেবাদাতাদের সাথে কাজ করি। তাদের সার্ভার তুরস্কের বাইরে থাকতে পারে, তাই প্রযোজ্য তথ্য সুরক্ষা আইন মেনে তথ্য অন্য দেশে পাঠানো হতে পারে।</p>
+            <h2>উদ্দেশ্য, আইনি ভিত্তি ও সংরক্ষণের মেয়াদ</h2>
+            <p>অ্যাপটি সরবরাহ, সাবস্ক্রিপশন পরিচালনা, অ্যাপটি উন্নত করা এবং ত্রুটি ঠিক করার জন্য এই তথ্য প্রক্রিয়া করা হয়। এর ভিত্তি হলো আপনাকে অ্যাপটি সরবরাহ করা, অ্যাপটি ভালোভাবে ও নিরাপদে চালু রাখায় আমাদের বৈধ স্বার্থ এবং প্রয়োজন হলে আইনি বাধ্যবাধকতা। এই উদ্দেশ্যগুলোর জন্য যতদিন প্রয়োজন, কেবল ততদিনই তথ্য রাখা হয়; এরপর তা মুছে ফেলা হয় বা পরিচয়হীন করা হয়।</p>
+            <h2>শিশু</h2>
+            <p>অ্যাপটি বিশেষভাবে শিশুদের জন্য তৈরি নয়। আমরা জেনেশুনে ১৩ বছরের কম বয়সী শিশুদের কাছ থেকে ব্যক্তিগত তথ্য সংগ্রহ করি না।</p>
+            <h2>আপনার অধিকার</h2>
+            <p>আপনি কোথায় থাকেন তার ওপর নির্ভর করে (যেমন তুরস্কে KVKK বা ইউরোপীয় ইউনিয়নে GDPR অনুযায়ী) তথ্য চাওয়া, তথ্য মুছে ফেলার অনুরোধ করা বা প্রক্রিয়াকরণে আপত্তি জানানোর মতো অধিকার আপনার থাকতে পারে। এসব অধিকার প্রয়োগ করতে আমাদের লিখতে পারেন।</p>
+            <p>যেহেতু অ্যাপে কোনো অ্যাকাউন্ট নেই এবং তথ্য আপনার পরিচয়ের সাথে যুক্ত নয়, তাই আপনার অনুরোধ পূরণ করতে আমরা অতিরিক্ত তথ্য চাইতে পারি। অ্যাপ মুছে আবার ইনস্টল করলে এলোমেলো শনাক্তকারীগুলো রিসেট হয়ে যায়।</p>
+            <h2>পরিবর্তন</h2>
+            <p>আমরা সময়ে সময়ে এই নীতি হালনাগাদ করতে পারি। বর্তমান সংস্করণ এই পেজে প্রকাশ করা হয়; ওপরের তারিখটি সর্বশেষ পরিবর্তন নির্দেশ করে।</p>
+            <h2>যোগাযোগ</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <article data-lang-block="ur" lang="ur" dir="rtl" data-title="رازداری کی پالیسی" hidden>
+            <p class="updated">آخری تازہ کاری: 25 اکتوبر 2026</p>
+            <p>یہ پالیسی بتاتی ہے کہ ایپ استعمال کرتے وقت کون سی معلومات پراسیس ہوتی ہیں۔ اس متن میں "ہم" سے مراد ایپ کا ڈیولپر ہے (وہ شخص جو App Store پر ایپ کے فروخت کنندہ کے طور پر دکھائی دیتا ہے)۔</p>
+            <h2>مختصراً</h2>
+            <ul><li>ایپ میں کوئی اکاؤنٹ نہیں ہوتا۔ ہم آپ کا نام، ای میل پتا یا فون نمبر نہیں مانگتے۔</li><li>آپ کی ترجیحات، پیش رفت، پسند کی ہوئی چیزیں، ڈاؤن لوڈز اور آپ کی لکھی ہوئی ہر چیز آپ کی ڈیوائس پر رہتی ہے۔</li><li>ایپ کو بہتر بنانے کے لیے ہم صرف استعمال کے ایسے اعداد و شمار اور خرابی کی رپورٹس دیکھتے ہیں جو آپ کی شناخت سے منسلک نہیں ہوتیں۔</li></ul>
+            <h2>آپ کی ڈیوائس پر کیا رہتا ہے</h2>
+            <p>آپ کی ترجیحات، پیش رفت، پسند کی ہوئی چیزیں، ڈاؤن لوڈ کیا ہوا مواد اور ایپ میں آپ کی لکھی ہوئی ہر چیز (مثلاً آپ کی دعائیں) آپ کی ڈیوائس پر محفوظ ہوتی ہیں۔ جب تک کوئی فیچر واضح طور پر کچھ اور نہ بتائے، یہ چیزیں ہمیں نہیں بھیجی جاتیں۔ ایپ حذف کرنے سے یہ بھی حذف ہو جاتی ہیں۔</p>
+            <h2>استعمال کے اعداد و شمار اور خرابی کی رپورٹس</h2>
+            <p>یہ سمجھنے کے لیے کہ ایپ کیسے استعمال ہوتی ہے اور خرابیاں دور کرنے کے لیے، استعمال کے واقعات (جیسے کون سی اسکرینیں کھولی گئیں اور کون سے فیچرز استعمال ہوئے) اور خرابی کی رپورٹس جمع کی جاتی ہیں۔ ان کے ساتھ آپ کی ڈیوائس کا ماڈل، آپریٹنگ سسٹم، ایپ کا ورژن، زبان، ایپ کی ایک بے ترتیب شناخت اور آپ کے IP پتے سے اخذ کیا گیا تقریبی مقام (ملک یا شہر) پراسیس کیے جاتے ہیں۔ یہ معلومات آپ کے نام یا شناخت سے منسلک نہیں کی جاتیں۔</p>
+            <h2>خریداریاں</h2>
+            <p>سبسکرپشنز App Store کے ذریعے خریدی جاتی ہیں۔ ادائیگی Apple سنبھالتا ہے؛ ہم آپ کی ادائیگی کی تفصیلات نہیں دیکھتے۔ یہ جانچنے کے لیے کہ آپ کی سبسکرپشن فعال ہے یا نہیں، اور خریداریاں بحال کرنے کے لیے، آپ کی سبسکرپشن کی کیفیت اور App Store پر آپ کی خریداریوں کی تاریخ ایک بے ترتیب شناخت کے ساتھ پراسیس کی جاتی ہے۔</p>
+            <h2>مشترکہ گنتیاں اور انٹرنیٹ سے لوڈ ہونے والا مواد</h2>
+            <p>کچھ فیچرز ایسی گنتیاں دکھاتے ہیں جو سب کو نظر آتی ہیں؛ ان میں آپ کا حصہ آپ کی شناخت سے منسلک کیے بغیر صرف ایک عدد کے طور پر شامل ہوتا ہے۔ جب آڈیو جیسا مواد انٹرنیٹ سے لوڈ ہوتا ہے تو ہر انٹرنیٹ درخواست کی طرح آپ کا IP پتا پراسیس ہوتا ہے۔</p>
+            <h2>جب آپ ہمیں لکھتے ہیں</h2>
+            <p>جب آپ ہمیں ای میل کرتے ہیں تو آپ کا ای میل پتا اور پیغام آپ کو جواب دینے کے لیے استعمال ہوتا ہے۔ خرابی کی اطلاع میں ایپ کا ورژن اور ڈیوائس کا ماڈل جیسی تکنیکی تفصیلات شامل ہو سکتی ہیں؛ بھیجنے سے پہلے آپ انہیں دیکھ سکتے ہیں۔</p>
+            <h2>سروس فراہم کنندگان</h2>
+            <p>ان مقاصد کے لیے ہم تجزیات، خرابی کی رپورٹنگ، سبسکرپشن کے انتظام اور مواد کی ترسیل کے شعبوں میں سروس فراہم کنندگان کے ساتھ کام کرتے ہیں۔ ان کے سرور ترکی سے باہر ہو سکتے ہیں، اس لیے معلومات ڈیٹا کے تحفظ کے قابلِ اطلاق قوانین کے مطابق دوسرے ممالک کو منتقل کی جا سکتی ہیں۔</p>
+            <h2>مقصد، قانونی بنیاد اور رکھنے کی مدت</h2>
+            <p>یہ معلومات ایپ فراہم کرنے، سبسکرپشن کا انتظام کرنے، ایپ کو بہتر بنانے اور خرابیاں دور کرنے کے لیے پراسیس کی جاتی ہیں۔ اس پراسیسنگ کی بنیاد آپ کو ایپ فراہم کرنا، ایپ کے ٹھیک اور محفوظ طریقے سے کام کرنے میں ہمارا جائز مفاد، اور جہاں ضروری ہو، قانونی ذمہ داریاں ہیں۔ یہ معلومات صرف اتنی مدت تک رکھی جاتی ہیں جتنی ان مقاصد کے لیے ضروری ہو؛ اس کے بعد انہیں حذف یا گمنام کر دیا جاتا ہے۔</p>
+            <h2>بچے</h2>
+            <p>ایپ خاص طور پر بچوں کے لیے نہیں بنائی گئی۔ ہم جان بوجھ کر 13 سال سے کم عمر بچوں سے ذاتی معلومات جمع نہیں کرتے۔</p>
+            <h2>آپ کے حقوق</h2>
+            <p>آپ جہاں رہتے ہیں اس کے لحاظ سے (مثلاً ترکی میں KVKK یا یورپی یونین میں GDPR کے تحت) آپ کو معلومات طلب کرنے، حذف کرنے کی درخواست کرنے یا پراسیسنگ پر اعتراض کرنے جیسے حقوق حاصل ہو سکتے ہیں۔ ان حقوق کے استعمال کے لیے آپ ہمیں لکھ سکتے ہیں۔</p>
+            <p>چونکہ ایپ میں کوئی اکاؤنٹ نہیں اور معلومات آپ کی شناخت سے منسلک نہیں ہوتیں، اس لیے آپ کی درخواست پوری کرنے کے لیے ہم اضافی تفصیلات مانگ سکتے ہیں۔ ایپ حذف کر کے دوبارہ انسٹال کرنے سے بے ترتیب شناختیں ری سیٹ ہو جاتی ہیں۔</p>
+            <h2>تبدیلیاں</h2>
+            <p>ہم وقتاً فوقتاً اس پالیسی کو تازہ کر سکتے ہیں۔ موجودہ ورژن اسی صفحے پر شائع کیا جاتا ہے؛ اوپر دی گئی تاریخ آخری تبدیلی بتاتی ہے۔</p>
+            <h2>رابطہ</h2>
+            <p><a href="mailto:support@furkanayan.app">support@furkanayan.app</a></p>
+          </article>
+          <!-- /legal -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img class="footer__skyline" src="../assets/img/golden-skyline.webp" alt="" loading="lazy" aria-hidden="true">
+    <div class="wrap">
+      <div class="footer__grid">
+        <div>
+          <a class="brand" href="../"><img src="../assets/img/app-icon.webp" alt="" width="34" height="34"><span>Scroll Quran</span></a>
+          <p class="footer__tag" data-i18n="footer.tag">Günün ayetleri, Dua Odası ve Kur’an; tek, sakin bir uygulamada.</p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.app">Uygulama</h4>
+          <ul>
+            <li><a href="../#verses" data-i18n="nav.verses">Günün Ayetleri</a></li>
+            <li><a href="../#prayer" data-i18n="nav.prayer">Dua Odası</a></li>
+            <li><a href="../#quran" data-i18n="nav.quran">Kur’an</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.legal">Yasal</h4>
+          <ul>
+            <li><a href="../privacy/" aria-current="page" data-i18n="footer.privacy">Gizlilik Politikası</a></li>
+            <li><a href="../terms/" data-i18n="footer.terms">Kullanım Koşulları</a></li>
+            <li><a href="../credits/" data-i18n="footer.credits">Kaynaklar</a></li>
+            <li><button type="button" data-contact data-i18n="footer.contact">İletişim</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__sources">
+        <p data-i18n="footer.sources">Arapça metin: <a href="https://tanzil.net" rel="noopener">Tanzil Projesi</a> (CC BY 3.0, değiştirilmeden). Türkçe, Endonezce, Malayca, Fransızca, Almanca, İspanyolca, Rusça, Hintçe, Bengalce ve Urduca mealler ile Arapça tefsir: <a href="https://quranenc.com" rel="noopener">QuranEnc</a> (değiştirilmeden). İngilizce meal: Talal Itani, <a href="https://www.clearquran.com" rel="noopener">ClearQuran</a>. Tilavetler: <a href="https://alquran.cloud" rel="noopener">Islamic Network</a>. Kelime zamanlamaları: <a href="https://github.com/cpfair/quran-align" rel="noopener">quran-align</a>.</p>
+        <p data-i18n="footer.copy">© 2026 Scroll Quran</p>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="contact" data-contact-dialog aria-labelledby="contact-title">
+    <div class="contact__card">
+      <button class="contact__close" type="button" data-contact-close data-i18n-attr="aria-label:contact.close" aria-label="Kapat"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+      <img class="ornament" src="../assets/img/divider-ornate.webp" alt="" width="120" height="23">
+      <h2 id="contact-title" data-i18n="contact.title">Bize yaz</h2>
+      <p data-i18n="contact.body">Soru, öneri ya da bir hata bildirimi için bize e-posta gönderebilirsin.</p>
+      <div class="contact__email">
+        <span data-contact-email>support@furkanayan.app</span>
+        <button class="contact__copy" type="button" data-contact-copy data-i18n="contact.copy">Kopyala</button>
+      </div>
+      <a class="btn btn--gold" href="mailto:support@furkanayan.app?subject=Scroll%20Quran" data-i18n="contact.send">E-posta gönder</a>
+    </div>
+  </dialog>
+</body>
+</html>
